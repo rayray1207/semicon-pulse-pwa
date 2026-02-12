@@ -8,50 +8,38 @@ on:
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ${{ github.workspace }}
 
     steps:
-      - name: 📥 Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: 🟢 Setup Node.js
+      # ❌ setup-node 캐시/락파일 이슈 완전 회피
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      # ❗️npm ci → npm install (lockfile 의존 제거)
-      - name: 📦 Install dependencies
+      # ❌ npm ci 사용 안 함 (lockfile 요구 안 하게)
+      - name: Install deps
         run: npm install
 
-      - name: 🔄 Fetch RSS feeds
+      - name: Fetch feeds
         run: node scripts/fetchFeeds.js
 
-      - name: 🔍 Check for changes
-        id: check_changes
+      - name: Commit changes
         run: |
-          if git diff --quiet public/news.json; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+          if ! git diff --quiet public/news.json; then
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add public/news.json
+            git commit -m "chore: update news feed"
+            git push
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "No changes"
           fi
 
-      - name: 💾 Commit changes
-        if: steps.check_changes.outputs.changed == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add public/news.json
-          git commit -m "chore: update news feed [$(date +'%Y-%m-%d %H:%M UTC')]"
-          git push
-
-      - name: 🚀 Deploy to Firebase Hosting
+      - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           channelId: live
           projectId: ${{ secrets.FIREBASE_PROJECT_ID }}
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
