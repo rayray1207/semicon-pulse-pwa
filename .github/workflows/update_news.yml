@@ -6,7 +6,11 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: semicon-news-update
+  cancel-in-progress: true
 
 jobs:
   update-and-deploy:
@@ -14,9 +18,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -29,25 +30,9 @@ jobs:
       - name: Fetch feeds
         run: node scripts/fetchFeeds.js
 
-      - name: Pull latest main
-        run: git pull origin main --rebase
-
-      - name: Commit changes
-        run: |
-          if ! git diff --quiet public/news.json; then
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            git add public/news.json
-            git commit -m "chore: update news feed"
-            git push origin HEAD:main
-          else
-            echo "No changes"
-          fi
-
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           channelId: live
           projectId: ${{ secrets.FIREBASE_PROJECT_ID }}
