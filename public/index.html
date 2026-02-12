@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="실시간 반도체 산업 뉴스 - HBM, Foundry, AI Chip 등 최신 소식">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  <title>Semicon Pulse - 반도체 뉴스</title>
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  
+  <!-- Icons -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="/icons/icon-512.png">
+  
+  <!-- Fonts: IBM Plex Sans (깔끔한 산세리프) + Courier New (모노스페이스 액센트) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* ==================== CSS Variables ==================== */
+    :root {
+      /* Colors - Dark Theme */
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --secondary: #8b5cf6;
+      --accent: #06b6d4;
+      
+      --bg-dark: #0f172a;
+      --bg-card: #1e293b;
+      --bg-hover: #334155;
+      
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      
+      --border: #334155;
+      --border-light: #475569;
+      
+      /* Colors - Light Theme */
+      --bg-light: #f8fafc;
+      --bg-card-light: #ffffff;
+      --bg-hover-light: #f1f5f9;
+      
+      --text-primary-light: #0f172a;
+      --text-secondary-light: #475569;
+      --text-muted-light: #94a3b8;
+      
+      --border-light-mode: #e2e8f0;
+      
+      /* Spacing */
+      --header-height: 60px;
+      --tab-height: 48px;
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 16px;
+      --spacing-lg: 24px;
+      
+      /* Typography */
+      --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'Courier New', monospace;
+      
+      /* Shadows */
+      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* ==================== Global Reset ==================== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg-dark);
+      color: var(--text-primary);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    
+    body.light-mode {
+      background: var(--bg-light);
+      color: var(--text-primary-light);
+    }
+    
+    /* ==================== Header ==================== */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--header-height);
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      padding: 0 var(--spacing-md);
+      z-index: 100;
+      backdrop-filter: blur(10px);
+      background: rgba(30, 41, 59, 0.8);
+    }
+    
+    body.light-mode .header {
+      background: rgba(255, 255, 255, 0.8);
+      border-bottom-color: var(--border-light-mode);
+    }
+    
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+      white-space: nowrap;
+    }
+    
+    .logo::before {
+      content: '◆';
+      font-size: 16px;
+    }
+    
+    .search-box {
+      flex: 1;
+      max-width: 500px;
+      margin: 0 var(--spacing-md);
+      position: relative;
+    }
+    
+    .search-input {
+      width: 100%;
+      padding: var(--spacing-sm) var(--spacing-md);
+      background: var(--bg-hover);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 14px;
+      outline: none;
+      transition: all 0.2s;
+    }
+    
+    body.light-mode .search-input {
+      background: var(--bg-hover-light);
+      border-color: var(--border-light-mode);
+      color: var(--text-primary-light);
+    }
+    
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+    
+    .header-actions {
+      display: flex;
+      gap: var(--spacing-sm);
+    }
+    
+    .icon-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+    
+    .icon-btn:hover {
+      background: var(--bg-hover);
+      border-color: var(--border-light);
+      color: var(--text-primary);
+    }
+    
+    body.light-mode .icon-btn {
+      border-color: var(--border-light-mode);
+    }
+    
+    body.light-mode .icon-btn:hover {
+      background: var(--bg-hover-light);
+    }
+    
+    /* ==================== Tabs ==================== */
+    .tabs {
+      position: fixed;
+      top: var(--header-height);
+      left: 0;
+      right: 0;
+      height: var(--tab-height);
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      overflow-x: auto;
+      z-index: 90;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    body.light-mode .tabs {
+      background: var(--bg-card-light);
+      border-bottom-color: var(--border-light-mode);
+    }
+    
+    .tabs::-webkit-scrollbar {
+      display: none;
+    }
+    
+    .tab {
+      flex-shrink: 0;
+      padding: 0 var(--spacing-lg);
+      height: 100%;
+      background: transparent;
+      border: none;
+      color: var(--text-secondary);
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      position: relative;
+      transition: color 0.2s;
+    }
+    
+    .tab:hover {
+      color: var(--text-primary);
+    }
+    
+    .tab.active {
+      color: var(--primary);
+    }
+    
+    .tab.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--primary);
+    }
+    
+    /* ==================== Main Content ==================== */
+    .main {
+      margin-top: calc(var(--header-height) + var(--tab-height));
+      padding: var(--spacing-md);
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 60px;
+    }
+    
+    /* ==================== Article Card ==================== */
+    .article-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    
+    body.light-mode .article-card {
+      background: var(--bg-card-light);
+      border-color: var(--border-light-mode);
+    }
+    
+    .article-card:hover {
+      border-color: var(--border-light);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+    
+    .article-tags {
+      display: flex;
+      gap: var(--spacing-xs);
+      margin-bottom: var(--spacing-sm);
+      flex-wrap: wrap;
+    }
+    
+    .tag {
+      padding: 2px 8px;
+      background: rgba(59, 130, 246, 0.1);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-family: var(--font-mono);
+    }
+    
+    .article-title {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: var(--spacing-sm);
+      color: var(--text-primary);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    
+    body.light-mode .article-title {
+      color: var(--text-primary-light);
+    }
+    
+    .article-summary {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin-bottom: var(--spacing-sm);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    
+    body.light-mode .article-summary {
+      color: var(--text-secondary-light);
+    }
+    
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    
+    body.light-mode .article-meta {
+      color: var(--text-muted-light);
+    }
+    
+    .article-source {
+      font-weight: 500;
+    }
+    
+    .article-time::before {
+      content: '•';
+      margin-right: var(--spacing-sm);
+    }
+    
+    /* ==================== Loading Skeleton ==================== */
+    .skeleton {
+      animation: skeleton-loading 1.5s infinite ease-in-out;
+    }
+    
+    @keyframes skeleton-loading {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.7; }
+    }
+    
+    .skeleton-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+    }
+    
+    body.light-mode .skeleton-card {
+      background: var(--bg-card-light);
+      border-color: var(--border-light-mode);
+    }
+    
+    .skeleton-tag {
+      width: 60px;
+      height: 18px;
+      background: var(--bg-hover);
+      border-radius: 4px;
+      margin-bottom: var(--spacing-sm);
+    }
+    
+    .skeleton-title {
+      width: 100%;
+      height: 20px;
+      background: var(--bg-hover);
+      border-radius: 4px;
+      margin-bottom: var(--spacing-sm);
+    }
+    
+    .skeleton-summary {
+      width: 80%;
+      height: 16px;
+      background: var(--bg-hover);
+      border-radius: 4px;
+      margin-bottom: var(--spacing-xs);
+    }
+    
+    .skeleton-meta {
+      width: 150px;
+      height: 14px;
+      background: var(--bg-hover);
+      border-radius: 4px;
+    }
+    
+    /* ==================== Empty State ==================== */
+    .empty-state {
+      text-align: center;
+      padding: var(--spacing-lg) 0;
+      color: var(--text-muted);
+    }
+    
+    .empty-icon {
+      font-size: 48px;
+      margin-bottom: var(--spacing-md);
+      opacity: 0.3;
+    }
+    
+    .empty-text {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    
+    /* ==================== Install Prompt ==================== */
+    .install-prompt {
+      position: fixed;
+      bottom: var(--spacing-md);
+      left: var(--spacing-md);
+      right: var(--spacing-md);
+      background: var(--primary);
+      color: white;
+      padding: var(--spacing-md);
+      border-radius: 12px;
+      display: none;
+      align-items: center;
+      gap: var(--spacing-md);
+      box-shadow: var(--shadow-lg);
+      z-index: 200;
+    }
+    
+    .install-prompt.show {
+      display: flex;
+    }
+    
+    .install-text {
+      flex: 1;
+      font-size: 14px;
+    }
+    
+    .install-text strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: var(--spacing-xs);
+    }
+    
+    .install-btn {
+      padding: var(--spacing-sm) var(--spacing-md);
+      background: white;
+      color: var(--primary);
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    
+    .close-install {
+      width: 24px;
+      height: 24px;
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      border-radius: 50%;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* ==================== Responsive ==================== */
+    @media (max-width: 640px) {
+      .header {
+        padding: 0 var(--spacing-sm);
+      }
+      
+      .search-box {
+        margin: 0 var(--spacing-sm);
+      }
+      
+      .logo {
+        font-size: 18px;
+      }
+      
+      .install-prompt {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      
+      .install-btn {
+        width: 100%;
+      }
+    }
+    
+    /* ==================== Utilities ==================== */
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="/" class="logo">Semicon Pulse</a>
+    
+    <div class="search-box">
+      <input 
+        type="search" 
+        class="search-input" 
+        placeholder="검색: HBM, TSMC, AI..." 
+        id="searchInput"
+        autocomplete="off"
+      >
+    </div>
+    
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" title="다크/라이트 모드">
+        <span id="themeIcon">☀️</span>
+      </button>
+      <button class="icon-btn" id="favoriteBtn" title="즐겨찾기">
+        ⭐
+      </button>
+    </div>
+  </header>
+  
+  <!-- Tabs -->
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="top">Top</button>
+    <button class="tab" data-tab="latest">최신</button>
+    <button class="tab" data-tab="HBM">HBM</button>
+    <button class="tab" data-tab="Foundry">Foundry</button>
+    <button class="tab" data-tab="AI">AI</button>
+    <button class="tab" data-tab="Equipment">Equipment</button>
+    <button class="tab" data-tab="Memory">Memory</button>
+    <button class="tab" data-tab="favorites">즐겨찾기</button>
+  </nav>
+  
+  <!-- Main Content -->
+  <main class="main" id="articleList">
+    <!-- Loading skeleton -->
+    <div class="skeleton-card skeleton">
+      <div class="skeleton-tag skeleton"></div>
+      <div class="skeleton-title skeleton"></div>
+      <div class="skeleton-summary skeleton"></div>
+      <div class="skeleton-summary skeleton" style="width: 60%;"></div>
+      <div class="skeleton-meta skeleton"></div>
+    </div>
+    <div class="skeleton-card skeleton">
+      <div class="skeleton-tag skeleton"></div>
+      <div class="skeleton-title skeleton"></div>
+      <div class="skeleton-summary skeleton"></div>
+      <div class="skeleton-summary skeleton" style="width: 60%;"></div>
+      <div class="skeleton-meta skeleton"></div>
+    </div>
+    <div class="skeleton-card skeleton">
+      <div class="skeleton-tag skeleton"></div>
+      <div class="skeleton-title skeleton"></div>
+      <div class="skeleton-summary skeleton"></div>
+      <div class="skeleton-summary skeleton" style="width: 60%;"></div>
+      <div class="skeleton-meta skeleton"></div>
+    </div>
+  </main>
+  
+  <!-- PWA Install Prompt -->
+  <div class="install-prompt" id="installPrompt">
+    <div class="install-text">
+      <strong>앱으로 설치하기</strong>
+      홈 화면에 추가하고 오프라인에서도 사용하세요
+    </div>
+    <button class="install-btn" id="installBtn">설치</button>
+    <button class="close-install" id="closeInstall">×</button>
+  </div>
+  
+  <script>
+    // ==================== Global State ====================
+    let allArticles = [];
+    let topArticles = [];
+    let currentTab = 'top';
+    let searchQuery = '';
+    let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    let deferredPrompt;
+    
+    // ==================== DOM Elements ====================
+    const articleList = document.getElementById('articleList');
+    const searchInput = document.getElementById('searchInput');
+    const tabs = document.querySelectorAll('.tab');
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = document.getElementById('themeIcon');
+    const favoriteBtn = document.getElementById('favoriteBtn');
+    const installPrompt = document.getElementById('installPrompt');
+    const installBtn = document.getElementById('installBtn');
+    const closeInstall = document.getElementById('closeInstall');
+    
+    // ==================== Initialize App ====================
+    async function init() {
+      // 테마 초기화
+      const savedTheme = localStorage.getItem('theme') || 'dark';
+      if (savedTheme === 'light') {
+        document.body.classList.add('light-mode');
+        themeIcon.textContent = '🌙';
+      }
+      
+      // 뉴스 데이터 로드
+      await loadNews();
+      
+      // 이벤트 리스너 등록
+      registerEventListeners();
+      
+      // 서비스 워커 등록
+      registerServiceWorker();
+      
+      // PWA 설치 프롬프트 준비
+      setupInstallPrompt();
+    }
+    
+    // ==================== Load News Data ====================
+    async function loadNews() {
+      try {
+        const response = await fetch('/news.json');
+        if (!response.ok) throw new Error('Failed to load news');
+        
+        const data = await response.json();
+        allArticles = data.allArticles || [];
+        topArticles = data.topArticles || [];
+        
+        console.log(`✅ Loaded ${allArticles.length} articles`);
+        renderArticles();
+        
+      } catch (error) {
+        console.error('❌ Error loading news:', error);
+        showEmptyState('뉴스를 불러올 수 없습니다');
+      }
+    }
+    
+    // ==================== Render Articles ====================
+    function renderArticles() {
+      let articles = [];
+      
+      // 탭에 따라 필터링
+      if (currentTab === 'top') {
+        articles = topArticles;
+      } else if (currentTab === 'latest') {
+        articles = allArticles;
+      } else if (currentTab === 'favorites') {
+        articles = allArticles.filter(a => favorites.includes(a.url));
+      } else {
+        // 카테고리 필터
+        articles = allArticles.filter(a => a.tags.includes(currentTab));
+      }
+      
+      // 검색어 필터
+      if (searchQuery) {
+        const query = searchQuery.toLowerCase();
+        articles = articles.filter(a => 
+          a.title.toLowerCase().includes(query) ||
+          a.summary.toLowerCase().includes(query) ||
+          a.tags.some(tag => tag.toLowerCase().includes(query))
+        );
+      }
+      
+      // 렌더링
+      if (articles.length === 0) {
+        showEmptyState(searchQuery ? '검색 결과가 없습니다' : '뉴스가 없습니다');
+        return;
+      }
+      
+      articleList.innerHTML = articles.map(article => createArticleCard(article)).join('');
+    }
+    
+    // ==================== Create Article Card ====================
+    function createArticleCard(article) {
+      const isFavorite = favorites.includes(article.url);
+      const timeAgo = getTimeAgo(article.publishedAt);
+      
+      return `
+        <a href="${article.url}" target="_blank" rel="noopener noreferrer" class="article-card">
+          <div class="article-tags">
+            ${article.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+          </div>
+          <h2 class="article-title">${escapeHtml(article.title)}</h2>
+          <p class="article-summary">${escapeHtml(article.summary)}</p>
+          <div class="article-meta">
+            <span class="article-source">${escapeHtml(article.sourceDomain)}</span>
+            <span class="article-time">${timeAgo}</span>
+          </div>
+        </a>
+      `;
+    }
+    
+    // ==================== Show Empty State ====================
+    function showEmptyState(message) {
+      articleList.innerHTML = `
+        <div class="empty-state">
+          <div class="empty-icon">📭</div>
+          <div class="empty-text">${message}</div>
+        </div>
+      `;
+    }
+    
+    // ==================== Time Ago Formatter ====================
+    function getTimeAgo(dateString) {
+      const now = Date.now();
+      const past = new Date(dateString).getTime();
+      const diffMs = now - past;
+      
+      const diffMins = Math.floor(diffMs / 60000);
+      const diffHours = Math.floor(diffMs / 3600000);
+      const diffDays = Math.floor(diffMs / 86400000);
+      
+      if (diffMins < 60) return `${diffMins}분 전`;
+      if (diffHours < 24) return `${diffHours}시간 전`;
+      if (diffDays < 7) return `${diffDays}일 전`;
+      
+      return new Date(dateString).toLocaleDateString('ko-KR', {
+        month: 'short',
+        day: 'numeric'
+      });
+    }
+    
+    // ==================== Escape HTML ====================
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+    
+    // ==================== Event Listeners ====================
+    function registerEventListeners() {
+      // 탭 전환
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          tab.classList.add('active');
+          currentTab = tab.dataset.tab;
+          renderArticles();
+        });
+      });
+      
+      // 검색
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value.trim();
+        renderArticles();
+      });
+      
+      // 테마 토글
+      themeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('light-mode');
+        const isLight = document.body.classList.contains('light-mode');
+        themeIcon.textContent = isLight ? '🌙' : '☀️';
+        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      });
+      
+      // 즐겨찾기 (현재는 탭으로만 작동)
+      favoriteBtn.addEventListener('click', () => {
+        const favTab = Array.from(tabs).find(t => t.dataset.tab === 'favorites');
+        if (favTab) favTab.click();
+      });
+    }
+    
+    // ==================== Service Worker ====================
+    function registerServiceWorker() {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('✅ Service Worker registered'))
+          .catch(err => console.error('❌ SW registration failed:', err));
+      }
+    }
+    
+    // ==================== PWA Install Prompt ====================
+    function setupInstallPrompt() {
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        installPrompt.classList.add('show');
+      });
+      
+      installBtn.addEventListener('click', async () => {
+        if (!deferredPrompt) return;
+        
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`User ${outcome} the install prompt`);
+        
+        deferredPrompt = null;
+        installPrompt.classList.remove('show');
+      });
+      
+      closeInstall.addEventListener('click', () => {
+        installPrompt.classList.remove('show');
+      });
+      
+      window.addEventListener('appinstalled', () => {
+        console.log('✅ PWA installed successfully');
+        installPrompt.classList.remove('show');
+      });
+    }
+    
+    // ==================== Start App ====================
+    init();
+  </script>
+</body>
+</html>

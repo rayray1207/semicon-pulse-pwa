@@ -1,0 +1,85 @@
+# GitHub Actions: RSS 피드 자동 수집 및 배포
+# 스케줄: 매일 6시간마다 (00:00, 06:00, 12:00, 18:00 UTC)
+# 수동 실행: GitHub Actions 탭에서 "Run workflow" 버튼 클릭
+
+name: Update News Feeds
+
+on:
+  # 스케줄 실행 (cron)
+  schedule:
+    # UTC 기준: 00:00, 06:00, 12:00, 18:00
+    # 한국 시간: 09:00, 15:00, 21:00, 03:00
+    - cron: '0 0,6,12,18 * * *'
+  
+  # 수동 실행 허용
+  workflow_dispatch:
+  
+  # Push 시에도 실행 (선택 사항 - 주석 해제하면 활성화)
+  # push:
+  #   branches: [ main ]
+  #   paths:
+  #     - 'scripts/fetchFeeds.js'
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. 저장소 체크아웃
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+      
+      # 2. Node.js 설정
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      # 3. 의존성 설치
+      - name: 📦 Install dependencies
+        run: npm ci
+      
+      # 4. RSS 피드 수집
+      - name: 🔄 Fetch RSS feeds
+        run: node scripts/fetchFeeds.js
+      
+      # 5. 변경사항 확인
+      - name: 🔍 Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet public/news.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes in news.json"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "News data updated"
+          fi
+      
+      # 6. 변경사항이 있으면 커밋 (선택 사항)
+      # Git 커밋을 원하지 않으면 이 단계를 주석 처리하세요
+      - name: 💾 Commit changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/news.json
+          git commit -m "chore: update news feed [$(date +'%Y-%m-%d %H:%M UTC')]"
+          git push
+      
+      # 7. Firebase에 배포
+      - name: 🚀 Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          channelId: live
+          projectId: ${{ secrets.FIREBASE_PROJECT_ID }}
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
+      
+      # 8. 배포 완료 알림
+      - name: ✅ Deployment complete
+        run: |
+          echo "🎉 News feeds updated and deployed successfully!"
+          echo "📊 Check the live site for latest articles"

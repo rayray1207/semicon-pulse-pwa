@@ -1,0 +1,27 @@
+{
+  "name": "semicon-pulse-pwa",
+  "version": "1.0.0",
+  "description": "반도체 뉴스 집계 PWA - Firebase 무료 플랜 전용",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "node scripts/fetchFeeds.js",
+    "serve": "firebase serve",
+    "deploy": "firebase deploy --only hosting",
+    "build": "npm run fetch"
+  },
+  "keywords": [
+    "semiconductor",
+    "news",
+    "pwa",
+    "firebase",
+    "rss"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.0.0"
+  }
+}

@@ -1,0 +1,1397 @@
+{
+  "generatedAt": "2026-02-07T09:39:15.484Z",
+  "totalArticles": 120,
+  "topArticles": [
+    {
+      "title": "Chip Industry Week in Review",
+      "summary": "Intel's GPU push; strong M&A; Lam-CEA deal; AI workload fundings; Z-Angle memory; TSMC 3nm in Japan; improving chip power delivery; Arm's expanded startup program; sleeper agent-style backdoors; VR for hiring; IC talent survey. The post Chip Industry Week in Review appeared first on Semiconductor En",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-124/",
+      "publishedAt": "2026-02-06T08:01:01.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": [
+        "Foundry",
+        "AI"
+      ]
+    },
+    {
+      "title": "The Entirely Curvilinear Photomask Era Has Arrived",
+      "summary": "Semiconductor manufacturing has reached a curve in the road – one driven by the convergence of GPU acceleration, pixel-based computing, eBeam multi-beam mask writers, and entirely curvilinear inverse lithography technology (ILT). The post The Entirely Curvilinear Photomask Era Has Arrived appeared f",
+      "url": "https://www.semiconductor-digest.com/the-entirely-curvilinear-photomask-era-has-arrived/?utm_source=rss&utm_medium=rss&utm_campaign=the-entirely-curvilinear-photomask-era-has-arrived",
+      "publishedAt": "2026-01-16T14:31:52.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "AI",
+        "EUV"
+      ]
+    },
+    {
+      "title": "Overview of Interface Dipole Engineering:  Formation Mechanisms, Control Methods, And Emerging Applications (SNU, Sejong U.)",
+      "summary": "Researchers at Seoul National University and Sejong University published “Interface dipole modulation for gate dielectrics in Field-Effect transistors: a review.” Abstract “Interface dipole engineering has recently become a key technology in the fabrication of semiconductor FETs. This review compreh",
+      "url": "https://semiengineering.com/overview-of-interface-dipole-engineering-formation-mechanisms-control-methods-and-emerging-applications-snu-sejong-u/",
+      "publishedAt": "2026-02-06T20:30:49.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": [
+        "Foundry"
+      ]
+    },
+    {
+      "title": "Diodes drives release of 1.8V, 2.5Gbps MIPI D-PHY ReDriver for ADAS",
+      "summary": "Diodes is releasing its automotive-compliant PI2MEQX2505Q, a 1.8V, 2.5Gps MIPI D-PHY ReDriver. Aimed at advanced driver-assistance systems (ADAS), or camera monitoring systems, it is a signal integrity device. MIPI D-PHY ... The post Diodes drives release of 1.8V, 2.5Gbps MIPI D-PHY ReDriver for ADA",
+      "url": "https://www.electronicsweekly.com/news/products/diodes-drives-release-of-1-8v-2-5gbps-mipi-d-phy-redriver-2026-02/",
+      "publishedAt": "2026-02-06T15:48:19.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": [
+        "Automotive"
+      ]
+    },
+    {
+      "title": "Singapore lab replaces interposer copper with micro LEDs",
+      "summary": "Replacing copper in semiconductor packaging with microLED optical links increases data rates and speed while resolving the issues of heat generation encountered by more traditional designs. Singapore’s NSC (New Silicon ... The post Singapore lab replaces interposer copper with micro LEDs appeared fi",
+      "url": "https://www.electronicsweekly.com/news/business/singapore-lab-replaces-interposer-copper-with-optical-fibre-2026-02/",
+      "publishedAt": "2026-02-06T09:44:05.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": [
+        "Packaging"
+      ]
+    },
+    {
+      "title": "Gelest Announces Collaboration with IBM to Test  Dry Resist EUV Lithography Precursors",
+      "summary": "Collaboration will aim to support materials development and speed innovation. The post Gelest Announces Collaboration with IBM to Test Dry Resist EUV Lithography Precursors appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/gelest-announces-collaboration-with-ibm-to-test-dry-resist-euv-lithography-precursors/?utm_source=rss&utm_medium=rss&utm_campaign=gelest-announces-collaboration-with-ibm-to-test-dry-resist-euv-lithography-precursors",
+      "publishedAt": "2026-02-05T19:59:45.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "EUV"
+      ]
+    },
+    {
+      "title": "Cadence Launches Partner Ecosystem to Accelerate Chiplet Time to Market",
+      "summary": "Strategic collaborations with Samsung Foundry, Arm and others enable Cadence to deliver pre-validated chiplet solutions based on the Cadence Physical AI chiplet platform. The post Cadence Launches Partner Ecosystem to Accelerate Chiplet Time to Market appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/cadence-launches-partner-ecosystem-to-accelerate-chiplet-time-to-market/?utm_source=rss&utm_medium=rss&utm_campaign=cadence-launches-partner-ecosystem-to-accelerate-chiplet-time-to-market",
+      "publishedAt": "2026-01-06T22:17:25.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Foundry",
+        "AI",
+        "Packaging"
+      ]
+    },
+    {
+      "title": "Thermal Characterization For Power Semiconductor Packages (KATECH)",
+      "summary": "Researchers from Korea Automotive Technology Institute published “Analytical Extraction of Thermal Resistance in Power Semiconductors Using Structural Function Derivatives and Series Resistance Modeling.” Abstract “Junction-to-case thermal resistance (RthJC ) is a critical parameter for assessing th",
+      "url": "https://semiengineering.com/thermal-characterization-for-power-semiconductor-packages-katech/",
+      "publishedAt": "2026-02-06T21:10:23.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": []
+    },
+    {
+      "title": "What’s in the January/February Issue?",
+      "summary": "Each issue of Semiconductor Digest has articles found only in the magazine. Click on the links to read the articles in the January/February issue. The post What’s in the January/February Issue? appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/whats-in-the-january-february-issue-5/?utm_source=rss&utm_medium=rss&utm_campaign=whats-in-the-january-february-issue-5",
+      "publishedAt": "2026-02-06T20:40:34.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Comprehensive System-Level Performance Model For p-SRAM-Based IMC (USC, UW-Madison)",
+      "summary": "Researchers at USC and University of Wisconsin-Madison published “System-Level Performance Modeling of Photonic In-Memory Computing.” Abstract “Photonic in-memory computing is a high-speed, low-energy alternative to traditional transistor-based digital computing that utilizes high photonic operating",
+      "url": "https://semiengineering.com/comprehensive-system-level-performance-model-for-psram-based-in-memory-computing/",
+      "publishedAt": "2026-02-06T20:08:34.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": []
+    }
+  ],
+  "allArticles": [
+    {
+      "title": "Thermal Characterization For Power Semiconductor Packages (KATECH)",
+      "summary": "Researchers from Korea Automotive Technology Institute published “Analytical Extraction of Thermal Resistance in Power Semiconductors Using Structural Function Derivatives and Series Resistance Modeling.” Abstract “Junction-to-case thermal resistance (RthJC ) is a critical parameter for assessing th",
+      "url": "https://semiengineering.com/thermal-characterization-for-power-semiconductor-packages-katech/",
+      "publishedAt": "2026-02-06T21:10:23.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": []
+    },
+    {
+      "title": "What’s in the January/February Issue?",
+      "summary": "Each issue of Semiconductor Digest has articles found only in the magazine. Click on the links to read the articles in the January/February issue. The post What’s in the January/February Issue? appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/whats-in-the-january-february-issue-5/?utm_source=rss&utm_medium=rss&utm_campaign=whats-in-the-january-february-issue-5",
+      "publishedAt": "2026-02-06T20:40:34.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Overview of Interface Dipole Engineering:  Formation Mechanisms, Control Methods, And Emerging Applications (SNU, Sejong U.)",
+      "summary": "Researchers at Seoul National University and Sejong University published “Interface dipole modulation for gate dielectrics in Field-Effect transistors: a review.” Abstract “Interface dipole engineering has recently become a key technology in the fabrication of semiconductor FETs. This review compreh",
+      "url": "https://semiengineering.com/overview-of-interface-dipole-engineering-formation-mechanisms-control-methods-and-emerging-applications-snu-sejong-u/",
+      "publishedAt": "2026-02-06T20:30:49.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": [
+        "Foundry"
+      ]
+    },
+    {
+      "title": "Comprehensive System-Level Performance Model For p-SRAM-Based IMC (USC, UW-Madison)",
+      "summary": "Researchers at USC and University of Wisconsin-Madison published “System-Level Performance Modeling of Photonic In-Memory Computing.” Abstract “Photonic in-memory computing is a high-speed, low-energy alternative to traditional transistor-based digital computing that utilizes high photonic operating",
+      "url": "https://semiengineering.com/comprehensive-system-level-performance-model-for-psram-based-in-memory-computing/",
+      "publishedAt": "2026-02-06T20:08:34.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": []
+    },
+    {
+      "title": "INU Researchers Present Roadmap of Ultra-Thin Crystalline Silicon-Based Bioelectronics",
+      "summary": "Ultra-thin crystalline silicon is an exciting material for next-generation bioelectronics, transforming rigid silicon into flexible nanomembranes while preserving superior electrical performance and CMOS compatibility. The post INU Researchers Present Roadmap of Ultra-Thin Crystalline Silicon-Based ",
+      "url": "https://www.semiconductor-digest.com/inu-researchers-present-roadmap-of-ultra-thin-crystalline-silicon-based-bioelectronics/?utm_source=rss&utm_medium=rss&utm_campaign=inu-researchers-present-roadmap-of-ultra-thin-crystalline-silicon-based-bioelectronics",
+      "publishedAt": "2026-02-06T17:06:57.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "SiTime to Acquire Renesas’ Timing Business",
+      "summary": "SiTime Corporation, the Precision Timing company, and Renesas Electronics Corporation, a premier supplier of advanced semiconductors, today announced that SiTime and Renesas’ consolidated subsidiary, Renesas Electronics America Inc., have signed a definitive agreement whereby SiTime will acquire cer",
+      "url": "https://www.semiconductor-digest.com/sitime-to-acquire-renesas-timing-business/?utm_source=rss&utm_medium=rss&utm_campaign=sitime-to-acquire-renesas-timing-business",
+      "publishedAt": "2026-02-06T16:48:00.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Researchers Boost Perovskite Solar Cell Performance Via Interface Engineering",
+      "summary": "Researchers from the Qingdao Institute of Bioenergy and Bioprocess Technology (QIBEBT) of the Chinese Academy of Sciences, in collaboration with international partners, have engineered a thin two-dimensional perovskite phase at the buried interface of three-dimensional (3D) perovskite solar cells (P",
+      "url": "https://www.semiconductor-digest.com/researchers-boost-perovskite-solar-cell-performance-via-interface-engineering/?utm_source=rss&utm_medium=rss&utm_campaign=researchers-boost-perovskite-solar-cell-performance-via-interface-engineering",
+      "publishedAt": "2026-02-06T16:40:39.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Global Chips Market Hitting Record High Sales Figures in 2025",
+      "summary": "The European Semiconductors Industry Association (ESIA) announced today that global semiconductor sales reached US$ 791.69 billion in 2025, which means a marked 26.1% increase on a year-on-year basis. The post Global Chips Market Hitting Record High Sales Figures in 2025 appeared first on Semiconduc",
+      "url": "https://www.semiconductor-digest.com/global-chips-market-hitting-record-high-sales-figures-in-2025/?utm_source=rss&utm_medium=rss&utm_campaign=global-chips-market-hitting-record-high-sales-figures-in-2025",
+      "publishedAt": "2026-02-06T15:55:20.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Diodes drives release of 1.8V, 2.5Gbps MIPI D-PHY ReDriver for ADAS",
+      "summary": "Diodes is releasing its automotive-compliant PI2MEQX2505Q, a 1.8V, 2.5Gps MIPI D-PHY ReDriver. Aimed at advanced driver-assistance systems (ADAS), or camera monitoring systems, it is a signal integrity device. MIPI D-PHY ... The post Diodes drives release of 1.8V, 2.5Gbps MIPI D-PHY ReDriver for ADA",
+      "url": "https://www.electronicsweekly.com/news/products/diodes-drives-release-of-1-8v-2-5gbps-mipi-d-phy-redriver-2026-02/",
+      "publishedAt": "2026-02-06T15:48:19.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": [
+        "Automotive"
+      ]
+    },
+    {
+      "title": "What To Do With A Telephone",
+      "summary": "In the early days of telephony, the telephone operating companies found that advertising suggestions for what to do with telephones was an effective way of recruiting new customers: Moral: Utility ... The post What To Do With A Telephone appeared first on Electronics Weekly.",
+      "url": "https://www.electronicsweekly.com/blogs/mannerisms/yarns/fable-what-to-do-with-a-telephone-2026-02/",
+      "publishedAt": "2026-02-06T14:21:03.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": []
+    },
+    {
+      "title": "EW BrightSparks 2025 profile: Harry Ford, HyImpulse",
+      "summary": "Now in its eighth year of awards, EW BrightSparks sees Electronics Weekly highlight and celebrate some of the brightest and most talented young engineers in the UK today. In the next ... The post EW BrightSparks 2025 profile: Harry Ford, HyImpulse appeared first on Electronics Weekly.",
+      "url": "https://www.electronicsweekly.com/news/ew-brightsparks/ew-brightsparks-2025-profile-harry-ford-hyimpulse-2026-02/",
+      "publishedAt": "2026-02-06T13:39:28.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": []
+    },
+    {
+      "title": "Record quarter for Arm",
+      "summary": "Arm’s Q3 revenue was up 26% YoY at $1.24 billion for its fourth consecutive billion dollar revenue quarter. Royalty revenue grew 27% YoY to $737 million. Licensing revenue grew 25% ... The post Record quarter for Arm appeared first on Electronics Weekly.",
+      "url": "https://www.electronicsweekly.com/news/business/record-quarter-for-arm-2-2026-02/",
+      "publishedAt": "2026-02-06T12:18:55.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": []
+    },
+    {
+      "title": "Gadget-In-Extremis: NPL develops miniaturised atomic fountain clock",
+      "summary": "From the National Physical Laboratory, the UK's measurement standards specialists, here's a miniaturised atomic fountain clock aiming to make the world’s most accurate timekeeping technology smaller and simpler. The post Gadget-In-Extremis: NPL develops miniaturised atomic fountain clock appeared fi",
+      "url": "https://www.electronicsweekly.com/blogs/gadget-master/gadget-in-extremis/gadget-in-extremis-npl-develops-miniaturised-atomic-fountain-clock-2026-02/",
+      "publishedAt": "2026-02-06T12:04:59.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": []
+    },
+    {
+      "title": "100V TMBS rectifier modules deliver forward voltage drop down to 0.83V",
+      "summary": "Vishay Intertechnology is introducing four 100V Gen 2 Trench MOS Barrier Schottky (TMBS) rectifier modules. They are in the compact, fully insulated SOT-227 package. According to Vishay, optimised for power ... The post 100V TMBS rectifier modules deliver forward voltage drop down to 0.83V appeared ",
+      "url": "https://www.electronicsweekly.com/news/products/power-supplies/100v-tmbs-rectifier-modules-deliver-forward-voltage-drop-down-to-0-83v-2026-02/",
+      "publishedAt": "2026-02-06T10:45:46.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": []
+    },
+    {
+      "title": "Most Read – Silicon Labs, Memory shortage, EU quantum effort",
+      "summary": "The most popular stories on our website involve the EU pusuing superconducting quantum technologies, SiTime's interest in the Renesas timing business, and China’s top memory companies racing to expand capacity to exploit the memory shortage... The post Most Read – Silicon Labs, Memory shortage, EU q",
+      "url": "https://www.electronicsweekly.com/blogs/electro-ramblings/latest-news/most-read-silicon-labs-memory-shortage-eu-quantum-effort-2026-02/",
+      "publishedAt": "2026-02-06T10:06:47.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": []
+    },
+    {
+      "title": "Singapore lab replaces interposer copper with micro LEDs",
+      "summary": "Replacing copper in semiconductor packaging with microLED optical links increases data rates and speed while resolving the issues of heat generation encountered by more traditional designs. Singapore’s NSC (New Silicon ... The post Singapore lab replaces interposer copper with micro LEDs appeared fi",
+      "url": "https://www.electronicsweekly.com/news/business/singapore-lab-replaces-interposer-copper-with-optical-fibre-2026-02/",
+      "publishedAt": "2026-02-06T09:44:05.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": [
+        "Packaging"
+      ]
+    },
+    {
+      "title": "Chip Industry Week in Review",
+      "summary": "Intel's GPU push; strong M&A; Lam-CEA deal; AI workload fundings; Z-Angle memory; TSMC 3nm in Japan; improving chip power delivery; Arm's expanded startup program; sleeper agent-style backdoors; VR for hiring; IC talent survey. The post Chip Industry Week in Review appeared first on Semiconductor En",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-124/",
+      "publishedAt": "2026-02-06T08:01:01.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": [
+        "Foundry",
+        "AI"
+      ]
+    },
+    {
+      "title": "Kymeta-JDI meta-surface to enable multi-band, multi-orbit satcomns",
+      "summary": "Kymeta, the mobile satcomms specialist, and Japan Display Inc (JDI) are developing a multi-band metasurface aperture to enable concurrent operation across Ku and Ka-band satellite frequencies. This collaboration aims to ... The post Kymeta-JDI meta-surface to enable multi-band, multi-orbit satcomns ",
+      "url": "https://www.electronicsweekly.com/news/business/kymeta-jdi-meta-surface-to-enable-enabling-multi-band-multi-orbit-satellite-communications-2026-02/",
+      "publishedAt": "2026-02-06T06:13:02.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": []
+    },
+    {
+      "title": "RF GaN on 11% CAGR to hit $2.4bn in 2031",
+      "summary": "RF GaN is on a strong growth trajectory, says Yole, with the market expected to reach ~$2.4 billion by 2031. Defence is the main growth engine, heading toward ~$1 billion ... The post RF GaN on 11% CAGR to hit $2.4bn in 2031 appeared first on Electronics Weekly.",
+      "url": "https://www.electronicsweekly.com/news/business/rf-gan-on-11-cagr-to-hit-2-4bn-in-2031-2026-02/",
+      "publishedAt": "2026-02-06T06:12:27.000Z",
+      "source": "Electronics Weekly",
+      "sourceDomain": "electronicsweekly.com",
+      "category": "Technology",
+      "tags": []
+    },
+    {
+      "title": "Remarkable Material Could Make Electronic Devices More Efficient",
+      "summary": "Scientists have created a new type of material that could enable common electronic devices to work faster and use less energy, a study suggests. The post Remarkable Material Could Make Electronic Devices More Efficient appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/remarkable-material-could-make-electronic-devices-more-efficient/?utm_source=rss&utm_medium=rss&utm_campaign=remarkable-material-could-make-electronic-devices-more-efficient",
+      "publishedAt": "2026-02-05T20:16:24.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Gelest Announces Collaboration with IBM to Test  Dry Resist EUV Lithography Precursors",
+      "summary": "Collaboration will aim to support materials development and speed innovation. The post Gelest Announces Collaboration with IBM to Test Dry Resist EUV Lithography Precursors appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/gelest-announces-collaboration-with-ibm-to-test-dry-resist-euv-lithography-precursors/?utm_source=rss&utm_medium=rss&utm_campaign=gelest-announces-collaboration-with-ibm-to-test-dry-resist-euv-lithography-precursors",
+      "publishedAt": "2026-02-05T19:59:45.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "EUV"
+      ]
+    },
+    {
+      "title": "Practical HLS Veriﬁcation: What It Takes to Ship Silicon",
+      "summary": "With the development of increasingly complex chips – such as AI accelerators – high-level synthesis (HLS) is transitioning from experimental methodology to a practical approach. The post Practical HLS Veriﬁcation: What It Takes to Ship Silicon appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/practical-hls-veri%ef%ac%81cation-what-it-takes-to-ship-silicon/?utm_source=rss&utm_medium=rss&utm_campaign=practical-hls-veri%25ef%25ac%2581cation-what-it-takes-to-ship-silicon",
+      "publishedAt": "2026-02-05T15:27:34.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Securing Hardware For The Quantum Era",
+      "summary": "Quantum computers may become a security threat as early as next year, and that threat will continue to grow over the next several years. The post Securing Hardware For The Quantum Era appeared first on Semiconductor Engineering.",
+      "url": "https://semiengineering.com/securing-hardware-for-the-quantum-era/",
+      "publishedAt": "2026-02-05T13:30:21.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": []
+    },
+    {
+      "title": "Modern Trends In Floating-Point",
+      "summary": "New applications drive a growing preference for energy efficiency and throughput over strict precision. The post Modern Trends In Floating-Point appeared first on Semiconductor Engineering.",
+      "url": "https://semiengineering.com/modern-trends-in-floating-point/",
+      "publishedAt": "2026-02-05T08:09:08.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": []
+    },
+    {
+      "title": "Six 3D-IC Design Trends That Secure The AI Era",
+      "summary": "The pace of innovation in advanced packaging is rewriting the rules that IC and package teams have relied on for decades. The post Six 3D-IC Design Trends That Secure The AI Era appeared first on Semiconductor Engineering.",
+      "url": "https://semiengineering.com/six-3d-ic-design-trends-that-secure-the-ai-era/",
+      "publishedAt": "2026-02-05T08:08:18.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": [
+        "Packaging"
+      ]
+    },
+    {
+      "title": "From Monolithic SoCs To Chiplets: A New Hardware Security Paradigm",
+      "summary": "Compromising a single weak chiplet or the interconnect can be sufficient to threaten the entire device platform. The post From Monolithic SoCs To Chiplets: A New Hardware Security Paradigm appeared first on Semiconductor Engineering.",
+      "url": "https://semiengineering.com/from-monolithic-socs-to-chiplets-a-new-hardware-security-paradigm/",
+      "publishedAt": "2026-02-05T08:06:13.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": [
+        "Packaging"
+      ]
+    },
+    {
+      "title": "The Role Of Embedded Processors In Enabling Smarter Wireless Devices",
+      "summary": "Protocol management, real-time decision-making, on-device AI, and sensor fusion drive device intelligence. The post The Role Of Embedded Processors In Enabling Smarter Wireless Devices appeared first on Semiconductor Engineering.",
+      "url": "https://semiengineering.com/the-role-of-embedded-processors-in-enabling-smarter-wireless-devices/",
+      "publishedAt": "2026-02-05T08:05:08.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": []
+    },
+    {
+      "title": "The True Cost Of CMMC Non-Compliance",
+      "summary": "Cybersecurity has moved from a contractual footnote to a deciding factor in who gets to compete. The post The True Cost Of CMMC Non-Compliance appeared first on Semiconductor Engineering.",
+      "url": "https://semiengineering.com/the-true-cost-of-cmmc-non-compliance/",
+      "publishedAt": "2026-02-05T08:04:58.000Z",
+      "source": "Semiconductor Engineering",
+      "sourceDomain": "semiengineering.com",
+      "category": "Engineering",
+      "tags": []
+    },
+    {
+      "title": "Texas Instruments to Acquire Silicon Labs",
+      "summary": "The acquisition will create a global leader in embedded wireless connectivity solutions. The post Texas Instruments to Acquire Silicon Labs appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/texas-instruments-to-acquire-silicon-labs/?utm_source=rss&utm_medium=rss&utm_campaign=texas-instruments-to-acquire-silicon-labs",
+      "publishedAt": "2026-02-04T22:44:50.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Siemens Acquires Canopus AI to Bring AI-Based Metrology to Semiconductor Manufacturing",
+      "summary": "Siemens today announced the acquisition of Canopus AI, an innovator in computational and AI-driven metrology solutions, enabling semiconductor manufacturers to achieve new levels of precision and efficiency in wafer and mask inspection processes. The post Siemens Acquires Canopus AI to Bring AI-Base",
+      "url": "https://www.semiconductor-digest.com/siemens-acquires-canopus-ai-to-bring-ai-based-metrology-to-semiconductor-manufacturing/?utm_source=rss&utm_medium=rss&utm_campaign=siemens-acquires-canopus-ai-to-bring-ai-based-metrology-to-semiconductor-manufacturing",
+      "publishedAt": "2026-02-04T22:38:02.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "EV Group Highlights Hybrid and Fusion Bonding, Layer Transfer and Maskless Lithography Technologies at SEMICON Korea 2026",
+      "summary": "These solutions include EVG’s GEMINI FB production wafer bonding systems, the EVG40 D2W die-to-wafer overlay metrology system, the IR LayerRelease layer transfer technology platform and EVG’s high-throughput LITHOSCALE XT maskless exposure system. The post EV Group Highlights Hybrid and Fusion Bondi",
+      "url": "https://www.semiconductor-digest.com/ev-group-highlights-hybrid-and-fusion-bonding-layer-transfer-and-maskless-lithography-technologies-at-semicon-korea-2026/?utm_source=rss&utm_medium=rss&utm_campaign=ev-group-highlights-hybrid-and-fusion-bonding-layer-transfer-and-maskless-lithography-technologies-at-semicon-korea-2026",
+      "publishedAt": "2026-02-04T22:29:10.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "EUV"
+      ]
+    },
+    {
+      "title": "Lam Research Announces Leadership Transitions",
+      "summary": "Lam Research Corp. today announced it is elevating the roles of two proven leaders as the company enters its next phase of growth. The post Lam Research Announces Leadership Transitions appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/lam-research-announces-leadership-transitions/?utm_source=rss&utm_medium=rss&utm_campaign=lam-research-announces-leadership-transitions",
+      "publishedAt": "2026-02-04T21:25:45.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Equipment"
+      ]
+    },
+    {
+      "title": "The Case for High NA EUV: Unlocking the Next Era of Chip Manufacturing",
+      "summary": "Imec and its ecosystem partners are pushing the boundaries of High NA EUV lithography and patterning. The post The Case for High NA EUV: Unlocking the Next Era of Chip Manufacturing appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/the-case-for-high-na-euv-unlocking-the-next-era-of-chip-manufacturing/?utm_source=rss&utm_medium=rss&utm_campaign=the-case-for-high-na-euv-unlocking-the-next-era-of-chip-manufacturing",
+      "publishedAt": "2026-02-04T14:33:12.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "EUV"
+      ]
+    },
+    {
+      "title": "Dassault Systèmes and NVIDIA Partner to Build Industrial AI Platform",
+      "summary": "Dassault Systèmes and NVIDIA today announced a long-term strategic partnership to establish a shared industrial architecture for mission-critical artificial intelligence across industries. The post Dassault Systèmes and NVIDIA Partner to Build Industrial AI Platform appeared first on Semiconductor D",
+      "url": "https://www.semiconductor-digest.com/dassault-systemes-and-nvidia-partner-to-build-industrial-ai-platform/?utm_source=rss&utm_medium=rss&utm_campaign=dassault-systemes-and-nvidia-partner-to-build-industrial-ai-platform",
+      "publishedAt": "2026-02-03T23:00:53.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Archer Develops Early Biochip Prototype",
+      "summary": "This milestone represents the first major step in translating Archer’s Biochip technology from individual laboratory devices into a product suitable for clinical workflows and, ultimately, point of care and at-home potassium monitoring. The post Archer Develops Early Biochip Prototype appeared first",
+      "url": "https://www.semiconductor-digest.com/archer-develops-early-biochip-prototype/?utm_source=rss&utm_medium=rss&utm_campaign=archer-develops-early-biochip-prototype",
+      "publishedAt": "2026-02-03T22:49:49.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Northrop Grumman Awarded Contracting Tool to Accelerate American-Made Microelectronics into Military Systems",
+      "summary": "The company is ready to deliver advanced semiconductor solutions over a ten-year period. The post Northrop Grumman Awarded Contracting Tool to Accelerate American-Made Microelectronics into Military Systems appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/northrop-grumman-awarded-contracting-tool-to-accelerate-american-made-microelectronics-into-military-systems/?utm_source=rss&utm_medium=rss&utm_campaign=northrop-grumman-awarded-contracting-tool-to-accelerate-american-made-microelectronics-into-military-systems",
+      "publishedAt": "2026-02-03T22:42:10.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "AAF International Unveils Industry-First Scannable, High-Performance, High-Flow HEPA Air Filter",
+      "summary": "All-new MEGAcel I High Flow (HF) offers V-Bank Filter Performance with scanning capability, lower installation and maintenance costs, and high strength. The post AAF International Unveils Industry-First Scannable, High-Performance, High-Flow HEPA Air Filter appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/aaf-international-unveils-industry-first-scannable-high-performance-high-flow-hepa-air-filter/?utm_source=rss&utm_medium=rss&utm_campaign=aaf-international-unveils-industry-first-scannable-high-performance-high-flow-hepa-air-filter",
+      "publishedAt": "2026-02-03T22:01:43.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Real-Time View Inside Microreactor Reveals 2D Semiconductor Growth Secrets",
+      "summary": "Researchers directly observe how molten precursor droplets drive the atomic-scale growth of ultra-thin semiconductor crystals. The post Real-Time View Inside Microreactor Reveals 2D Semiconductor Growth Secrets appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/real-time-view-inside-microreactor-reveals-2d-semiconductor-growth-secrets/?utm_source=rss&utm_medium=rss&utm_campaign=real-time-view-inside-microreactor-reveals-2d-semiconductor-growth-secrets",
+      "publishedAt": "2026-02-02T22:21:01.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "NanoIC Extends its PDK Portfolio with First A14 Logic and eDRAM Memory PDK",
+      "summary": "Today, the NanoIC pilot line, a European initiative coordinated by imec and dedicated to accelerating innovation in chip technologies beyond 2nm, announces the release of two new process design kits (PDKs). The post NanoIC Extends its PDK Portfolio with First A14 Logic and eDRAM Memory PDK appeared ",
+      "url": "https://www.semiconductor-digest.com/nanoic-extends-its-pdk-portfolio-with-first-a14-logic-and-edram-memory-pdk/?utm_source=rss&utm_medium=rss&utm_campaign=nanoic-extends-its-pdk-portfolio-with-first-a14-logic-and-edram-memory-pdk",
+      "publishedAt": "2026-02-02T22:06:55.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Memory"
+      ]
+    },
+    {
+      "title": "Lam Research and CEA-Leti Expand Research and Development Collaboration to Advance Fabrication of Specialty Technologies",
+      "summary": "Lam Research Corp. and CEA-Leti, a research institute pioneering micro- and nanotechnologies, today announced a new multi-year agreement to advance the development of next-generation Specialty Technology devices. The post Lam Research and CEA-Leti Expand Research and Development Collaboration to Adv",
+      "url": "https://www.semiconductor-digest.com/lam-research-and-cea-leti-expand-research-and-development-collaboration-to-advance-fabrication-of-specialty-technologies/?utm_source=rss&utm_medium=rss&utm_campaign=lam-research-and-cea-leti-expand-research-and-development-collaboration-to-advance-fabrication-of-specialty-technologies",
+      "publishedAt": "2026-02-02T21:59:50.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Foundry",
+        "Equipment"
+      ]
+    },
+    {
+      "title": "EUV Tech Celebrates Grand Opening of First Global Office in Singapore",
+      "summary": "EUV Tech, a manufacturer of advanced extreme ultraviolet (EUV) metrology equipment, today announced the official grand opening of its new office in Singapore. The post EUV Tech Celebrates Grand Opening of First Global Office in Singapore appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/euv-tech-celebrates-grand-opening-of-first-global-office-in-singapore/?utm_source=rss&utm_medium=rss&utm_campaign=euv-tech-celebrates-grand-opening-of-first-global-office-in-singapore",
+      "publishedAt": "2026-02-02T21:46:25.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "EUV"
+      ]
+    },
+    {
+      "title": "MXene Nanomaterials Enter a New Dimension",
+      "summary": "Multilayer nanomaterial MXene flakes created at Drexel University show new promise as 1D scrolls. The post MXene Nanomaterials Enter a New Dimension appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/mxene-nanomaterials-enter-a-new-dimension/?utm_source=rss&utm_medium=rss&utm_campaign=mxene-nanomaterials-enter-a-new-dimension",
+      "publishedAt": "2026-01-30T22:24:34.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "ISG to Study Semiconductor Industry Service Providers",
+      "summary": "Information Services Group (ISG), a global AI-centered technology research and advisory firm, has launched a research study examining providers that help semiconductor companies adopt advanced technologies, supported by digital manufacturing and intelligent automation. The post ISG to Study Semicond",
+      "url": "https://www.semiconductor-digest.com/isg-to-study-semiconductor-industry-service-providers/?utm_source=rss&utm_medium=rss&utm_campaign=isg-to-study-semiconductor-industry-service-providers",
+      "publishedAt": "2026-01-30T22:12:48.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Kioxia and Sandisk Extend Yokkaichi Joint Venture Agreement Through 2034",
+      "summary": "Kioxia Corporation, a subsidiary of Kioxia Holdings Corporation, and Sandisk Corporation today announced the extension of their joint venture agreements at Kioxia’s Yokkaichi Plant for an additional five years. The post Kioxia and Sandisk Extend Yokkaichi Joint Venture Agreement Through 2034 appeare",
+      "url": "https://www.semiconductor-digest.com/kioxia-and-sandisk-extend-yokkaichi-joint-venture-agreement-through-2034/?utm_source=rss&utm_medium=rss&utm_campaign=kioxia-and-sandisk-extend-yokkaichi-joint-venture-agreement-through-2034",
+      "publishedAt": "2026-01-30T22:10:40.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Micron Breaks Ground on Advanced Wafer Fabrication Facility in Singapore",
+      "summary": "Approximately $24 billion investment over 10 years will support long-term manufacturing requirements and AI-driven demand. The post Micron Breaks Ground on Advanced Wafer Fabrication Facility in Singapore appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/micron-breaks-ground-on-advanced-wafer-fabrication-facility-in-singapore/?utm_source=rss&utm_medium=rss&utm_campaign=micron-breaks-ground-on-advanced-wafer-fabrication-facility-in-singapore",
+      "publishedAt": "2026-01-28T23:09:11.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Foundry",
+        "Memory"
+      ]
+    },
+    {
+      "title": "New Chip-Sized, Energy-Efficient Optical Amplifier Can Intensify Light 100 Times",
+      "summary": "Small enough to fit in a smartphone, the optical amplifier developed at Stanford could not only improve fiber optic networks that are the backbone of the internet, but also spur new technologies such as biosensing for environmental toxin detection and medical diagnostics. The post New Chip-Sized, En",
+      "url": "https://www.semiconductor-digest.com/new-chip-sized-energy-efficient-optical-amplifier-can-intensify-light-100-times/?utm_source=rss&utm_medium=rss&utm_campaign=new-chip-sized-energy-efficient-optical-amplifier-can-intensify-light-100-times",
+      "publishedAt": "2026-01-28T22:55:12.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Alpha and Omega Semiconductor Unveils its Powerful αMOS E2 600V Super Junction MOSFET Platform",
+      "summary": "Alpha and Omega Semiconductor Limited, a designer, developer, and global supplier of a broad range of discrete power devices, wide band gap power devices, power management ICs, and modules, today unveiled its powerful αMOS E2 600V Super Junction MOSFET platform. The post Alpha and Omega Semiconducto",
+      "url": "https://www.semiconductor-digest.com/alpha-and-omega-semiconductor-unveils-its-powerful-%ce%b1mos-e2-600v-super-junction-mosfet-platform/?utm_source=rss&utm_medium=rss&utm_campaign=alpha-and-omega-semiconductor-unveils-its-powerful-%25ce%25b1mos-e2-600v-super-junction-mosfet-platform",
+      "publishedAt": "2026-01-28T22:44:36.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Celera Semiconductor Appoints Bruno Kranzen to its Board of Directors",
+      "summary": "Celera Semiconductor has appointed Bruno Kranzen to its Board of Directors. The post Celera Semiconductor Appoints Bruno Kranzen to its Board of Directors appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/celera-semiconductor-appoints-bruno-kranzen-to-its-board-of-directors/?utm_source=rss&utm_medium=rss&utm_campaign=celera-semiconductor-appoints-bruno-kranzen-to-its-board-of-directors",
+      "publishedAt": "2026-01-28T22:35:28.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "EMASS Tapes Out 16nm ECS-DoT, Advancing Always-On Edge AI",
+      "summary": "EMASS, a Nanoveu subsidiary specializing in next-generation semiconductor technology, today announced the successful tape-out of its 16nm ECS-DoT system-on-chip (SoC). The post EMASS Tapes Out 16nm ECS-DoT, Advancing Always-On Edge AI appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/emass-tapes-out-16nm-ecs-dot-advancing-always-on-edge-ai/?utm_source=rss&utm_medium=rss&utm_campaign=emass-tapes-out-16nm-ecs-dot-advancing-always-on-edge-ai",
+      "publishedAt": "2026-01-28T22:31:55.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "SK hynix to Establish U.S. Arm Specialized in AI Solutions",
+      "summary": "SK hynix Inc. announced today that it will establish an AI solutions firm, tentatively named AI Company, in the US to find new AI growth engines. The post SK hynix to Establish U.S. Arm Specialized in AI Solutions appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/sk-hynix-to-establish-u-s-arm-specialized-in-ai-solutions/?utm_source=rss&utm_medium=rss&utm_campaign=sk-hynix-to-establish-u-s-arm-specialized-in-ai-solutions",
+      "publishedAt": "2026-01-28T17:46:39.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Memory"
+      ]
+    },
+    {
+      "title": "Valens Semiconductor Announces Operational Efficiency Plan",
+      "summary": "Plan includes 10% workforce reduction across various departments. The post Valens Semiconductor Announces Operational Efficiency Plan appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/valens-semiconductor-announces-operational-efficiency-plan/?utm_source=rss&utm_medium=rss&utm_campaign=valens-semiconductor-announces-operational-efficiency-plan",
+      "publishedAt": "2026-01-28T17:25:42.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "SK keyfoundry Launches 4th-Generation 200V High-Voltage 0.18 micron BCD Process",
+      "summary": "SK keyfoundry announced that it has recently launched its fourth-generation 200V high-voltage 0.18-micron BCD process and will begin full-scale product development with major domestic and global customers, targeting mass production within the year. The post SK keyfoundry Launches 4th-Generation 200V",
+      "url": "https://www.semiconductor-digest.com/sk-keyfoundry-launches-4th-generation-200v-high-voltage-0-18-micron-bcd-process/?utm_source=rss&utm_medium=rss&utm_campaign=sk-keyfoundry-launches-4th-generation-200v-high-voltage-0-18-micron-bcd-process",
+      "publishedAt": "2026-01-28T17:21:34.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Foundry",
+        "Memory"
+      ]
+    },
+    {
+      "title": "New 3D Micro and Nanofabrication Technique Overcomes Material Limitations",
+      "summary": "Method relies on light-driven or optofluidic assembly. The post New 3D Micro and Nanofabrication Technique Overcomes Material Limitations appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/new-3d-micro-and-nanofabrication-technique-overcomes-material-limitations/?utm_source=rss&utm_medium=rss&utm_campaign=new-3d-micro-and-nanofabrication-technique-overcomes-material-limitations",
+      "publishedAt": "2026-01-28T16:48:15.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Foundry"
+      ]
+    },
+    {
+      "title": "SEMI Outlines 2026 U.S. Policy Priorities to Support Semiconductor Growth, Innovation, and Supply Chain Stability",
+      "summary": "Policy priorities focus on trade, workforce, investment certainty, CHIPS Act implementation, and supply chain resilience. The post SEMI Outlines 2026 U.S. Policy Priorities to Support Semiconductor Growth, Innovation, and Supply Chain Stability appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/semi-outlines-2026-u-s-policy-priorities-to-support-semiconductor-growth-innovation-and-supply-chain-stability/?utm_source=rss&utm_medium=rss&utm_campaign=semi-outlines-2026-u-s-policy-priorities-to-support-semiconductor-growth-innovation-and-supply-chain-stability",
+      "publishedAt": "2026-01-28T16:37:51.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Chungnam National University Develops AI Model to Accelerate Defect-Based Material Design",
+      "summary": "Deep learning reduces simulation times from hours to milliseconds. The post Chungnam National University Develops AI Model to Accelerate Defect-Based Material Design appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/chungnam-national-university-develops-ai-model-to-accelerate-defect-based-material-design/?utm_source=rss&utm_medium=rss&utm_campaign=chungnam-national-university-develops-ai-model-to-accelerate-defect-based-material-design",
+      "publishedAt": "2026-01-27T22:05:26.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "La Luce Cristallina Launches CMOS-Compatible Oxide Pseudo-Substrate, Enhancing Scalability for Silicon Photonics and Advanced Electronics",
+      "summary": "La Luce Cristallina today announced it has launched its new CMOS-compatible oxide pseudo-substrate, enabling high-quality, epitaxial strontium titanate (SrTiO₃) films to be grown directly on 200-mm silicon and silicon-on-insulator (SOI) wafers. The post La Luce Cristallina Launches CMOS-Compatible O",
+      "url": "https://www.semiconductor-digest.com/la-luce-cristallina-launches-cmos-compatible-oxide-pseudo-substrate-enhancing-scalability-for-silicon-photonics-and-advanced-electronics/?utm_source=rss&utm_medium=rss&utm_campaign=la-luce-cristallina-launches-cmos-compatible-oxide-pseudo-substrate-enhancing-scalability-for-silicon-photonics-and-advanced-electronics",
+      "publishedAt": "2026-01-27T21:58:56.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "AmberSemi Announces Silicon Tape-Out of PowerTile Vertical Power Solution for AI Data Centers",
+      "summary": "Amber Semiconductor, Inc. (AmberSemi), a fabless semiconductor company pioneering the next generation of power management for data centers, today announced the successful tape out of its AmberSemi PowerTile vertical power delivery solution designed specifically for AI processors in data centers. The",
+      "url": "https://www.semiconductor-digest.com/ambersemi-announces-silicon-tape-out-of-powertile-vertical-power-solution-for-ai-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=ambersemi-announces-silicon-tape-out-of-powertile-vertical-power-solution-for-ai-data-centers",
+      "publishedAt": "2026-01-27T21:49:57.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Foundry"
+      ]
+    },
+    {
+      "title": "Veeco and imec Develop 300mm Compatible Process to Enable Integration of Barium Titanate on Silicon photonics",
+      "summary": "Veeco Instruments Inc. and imec announced today that they have collaboratively developed a 300mm high volume manufacturing compatible process that enables the integration of barium titanate (BaTiO3 or BTO) on a silicon photonics platform. The post Veeco and imec Develop 300mm Compatible Process to E",
+      "url": "https://www.semiconductor-digest.com/veeco-and-imec-develop-300mm-compatible-process-to-enable-integration-of-barium-titanate-on-silicon-photonics/?utm_source=rss&utm_medium=rss&utm_campaign=veeco-and-imec-develop-300mm-compatible-process-to-enable-integration-of-barium-titanate-on-silicon-photonics",
+      "publishedAt": "2026-01-27T21:34:23.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "SEMIFIVE and SAPIEN Semiconductors Sign MOU to Develop Next-Generation Micro-display ‘CMOS Backplane’ Technology",
+      "summary": "SEMIFIVE, a global provider of custom AI semiconductor (ASIC) design solutions, announced today that it has signed a strategic MOU with SAPIEN Semiconductors, a company specializing in advanced micro-LED display driver ASICs. The post SEMIFIVE and SAPIEN Semiconductors Sign MOU to Develop Next-Gener",
+      "url": "https://www.semiconductor-digest.com/semifive-and-sapien-semiconductors-sign-mou-to-develop-next-generation-micro-display-cmos-backplane-technology/?utm_source=rss&utm_medium=rss&utm_campaign=semifive-and-sapien-semiconductors-sign-mou-to-develop-next-generation-micro-display-cmos-backplane-technology",
+      "publishedAt": "2026-01-26T17:56:43.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Ricursive Intelligence Raises $300 Million Series A at $4 Billion Valuation to Accelerate AI-Driven Semiconductor Design",
+      "summary": "Ricursive Intelligence, a frontier AI lab founded by the co-creators of AlphaChip, today announced a $300 million Series A funding round led by Lightspeed Venture Partners at a $4 billion post-money valuation. The post Ricursive Intelligence Raises $300 Million Series A at $4 Billion Valuation to Ac",
+      "url": "https://www.semiconductor-digest.com/ricursive-intelligence-raises-300-million-series-a-at-4-billion-valuation-to-accelerate-ai-driven-semiconductor-design/?utm_source=rss&utm_medium=rss&utm_campaign=ricursive-intelligence-raises-300-million-series-a-at-4-billion-valuation-to-accelerate-ai-driven-semiconductor-design",
+      "publishedAt": "2026-01-26T17:48:49.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Towards Efficient Self-Powered Screens Using Organic Semiconductors",
+      "summary": "Researchers have overcome a major technical challenge to creating organic multifunctional devices that both light up and power themselves. The post Towards Efficient Self-Powered Screens Using Organic Semiconductors appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/towards-efficient-self-powered-screens-using-organic-semiconductors/?utm_source=rss&utm_medium=rss&utm_campaign=towards-efficient-self-powered-screens-using-organic-semiconductors",
+      "publishedAt": "2026-01-26T17:40:04.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Chungnam National University Team Pioneers Defect-Free High-Quality Graphene Electrodes",
+      "summary": "One-step, etch- free patterning enables clean, low-resistance graphene electrodes for transparent and flexible devices. The post Chungnam National University Team Pioneers Defect-Free High-Quality Graphene Electrodes appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/chungnam-national-university-team-pioneers-defect-free-high-quality-graphene-electrodes/?utm_source=rss&utm_medium=rss&utm_campaign=chungnam-national-university-team-pioneers-defect-free-high-quality-graphene-electrodes",
+      "publishedAt": "2026-01-26T17:25:57.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Tenstorrent Announces Participation in CHASSIS Program, Joint Initiative for Automotive Chiplet Technology",
+      "summary": "Tenstorrent is announcing their participation in the CHASSIS program, a three year international research program driving software-defined mobility projects in the EU. The post Tenstorrent Announces Participation in CHASSIS Program, Joint Initiative for Automotive Chiplet Technology appeared first o",
+      "url": "https://www.semiconductor-digest.com/tenstorrent-announces-participation-in-chassis-program-joint-initiative-for-automotive-chiplet-technology/?utm_source=rss&utm_medium=rss&utm_campaign=tenstorrent-announces-participation-in-chassis-program-joint-initiative-for-automotive-chiplet-technology",
+      "publishedAt": "2026-01-26T17:21:53.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Packaging"
+      ]
+    },
+    {
+      "title": "Scintil Photonics, Presto Engineering and CEA-Leti Receive Bpifrance Grant for the CanopAI Project to Advance Photonic Integration for AI and Data Centers",
+      "summary": "The CanopAI project addresses key challenges in the test and reliability of photonic integrated circuits, strengthening France’s technological sovereignty in semiconductors and photonics. The post Scintil Photonics, Presto Engineering and CEA-Leti Receive Bpifrance Grant for the CanopAI Project to A",
+      "url": "https://www.semiconductor-digest.com/scintil-photonics-presto-engineering-and-cea-leti-receive-bpifrance-grant-for-the-canopai-project-to-advance-photonic-integration-for-ai-and-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=scintil-photonics-presto-engineering-and-cea-leti-receive-bpifrance-grant-for-the-canopai-project-to-advance-photonic-integration-for-ai-and-data-centers",
+      "publishedAt": "2026-01-23T22:25:46.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Omdia: Smartphone AMOLED Shipments to Fall in 2026 as Memory Prices Squeeze Smartphone Makers’ Plans",
+      "summary": "Global smartphone AMOLED shipments are forecast to decline to 810 million units in 2026, down from 817 million units in 2025, according to Omdia’s Smartphone Display Intelligence Service. The post Omdia: Smartphone AMOLED Shipments to Fall in 2026 as Memory Prices Squeeze Smartphone Makers’ Plans ap",
+      "url": "https://www.semiconductor-digest.com/omdia-smartphone-amoled-shipments-to-fall-in-2026-as-memory-prices-squeeze-smartphone-makers-plans/?utm_source=rss&utm_medium=rss&utm_campaign=omdia-smartphone-amoled-shipments-to-fall-in-2026-as-memory-prices-squeeze-smartphone-makers-plans",
+      "publishedAt": "2026-01-23T22:04:17.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "FLEX Technology Summit 2026 Spotlights Augmenting Flexible Hybrid Electronics with AI, Digital Twins, and XR",
+      "summary": "The FLEX Technology Summit will be held on February 24-26, 2026, at the Wigwam Arizona Resort in Phoenix, Arizona, celebrating 25 years of innovation in flexible hybrid electronics (FHE), printed electronics, and advanced packaging. The post FLEX Technology Summit 2026 Spotlights Augmenting Flexible",
+      "url": "https://www.semiconductor-digest.com/flex-technology-summit-2026-spotlights-augmenting-flexible-hybrid-electronics-with-ai-digital-twins-and-xr/?utm_source=rss&utm_medium=rss&utm_campaign=flex-technology-summit-2026-spotlights-augmenting-flexible-hybrid-electronics-with-ai-digital-twins-and-xr",
+      "publishedAt": "2026-01-23T21:56:47.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Packaging"
+      ]
+    },
+    {
+      "title": "Texas Tech to Dedicate $24 Million Toward Multipurpose Clean-Room Facility",
+      "summary": "The university is matching a $12 million Texas Semiconductor Innovation Fund grant award to build a facility to further semiconductor research and development. The post Texas Tech to Dedicate $24 Million Toward Multipurpose Clean-Room Facility appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/texas-tech-to-dedicate-24-million-toward-multipurpose-clean-room-facility/?utm_source=rss&utm_medium=rss&utm_campaign=texas-tech-to-dedicate-24-million-toward-multipurpose-clean-room-facility",
+      "publishedAt": "2026-01-23T21:52:28.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Micron Signs Letter of Intent to Purchase Tongluo Site",
+      "summary": "Acquisition to add 300,000 square feet of memory cleanroom space. The post Micron Signs Letter of Intent to Purchase Tongluo Site appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/micron-signs-letter-of-intent-to-purchase-tongluo-site/?utm_source=rss&utm_medium=rss&utm_campaign=micron-signs-letter-of-intent-to-purchase-tongluo-site",
+      "publishedAt": "2026-01-21T22:06:51.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Memory"
+      ]
+    },
+    {
+      "title": "Mobix Labs and Peraso Engage in Further Discussions Regarding a Potential Strategic Transaction",
+      "summary": "Mobix Labs, Inc., agrowing fabless semiconductor and connectivity company serving the defense, aerospace, and high-reliability markets, today announced that it engaged in further discussions with Peraso, Inc. regarding a potential strategic transaction. The post Mobix Labs and Peraso Engage in Furth",
+      "url": "https://www.semiconductor-digest.com/mobix-labs-and-peraso-engage-in-further-discussions-regarding-a-potential-strategic-transaction/?utm_source=rss&utm_medium=rss&utm_campaign=mobix-labs-and-peraso-engage-in-further-discussions-regarding-a-potential-strategic-transaction",
+      "publishedAt": "2026-01-21T22:00:50.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Foundry"
+      ]
+    },
+    {
+      "title": "AMD Appoints KC McClure to Board of Directors",
+      "summary": "AMD (NASDAQ: AMD) today announced the appointment of KC McClure to its board of directors. The post AMD Appoints KC McClure to Board of Directors appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/amd-appoints-kc-mcclure-to-board-of-directors/?utm_source=rss&utm_medium=rss&utm_campaign=amd-appoints-kc-mcclure-to-board-of-directors",
+      "publishedAt": "2026-01-21T21:52:18.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "GlobalFoundries Appoints Ganesh Moorthy to Board of Directors",
+      "summary": "Seasoned semiconductor industry leader brings decades of operational and strategic expertise to GF’s Board. The post GlobalFoundries Appoints Ganesh Moorthy to Board of Directors appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/globalfoundries-appoints-ganesh-moorthy-to-board-of-directors/?utm_source=rss&utm_medium=rss&utm_campaign=globalfoundries-appoints-ganesh-moorthy-to-board-of-directors",
+      "publishedAt": "2026-01-21T21:46:50.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "AI-Driven Ultrafast Spectrometer-on-a-Chip: A Revolution in Real-Time Sensing",
+      "summary": "A newly developed silicon spectrometer‑on‑a‑chip achieves accurate, noise‑resilient hyperspectral sensing across an extended near‑infrared range. The post AI-Driven Ultrafast Spectrometer-on-a-Chip: A Revolution in Real-Time Sensing appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/ai-driven-ultrafast-spectrometer-on-a-chip-a-revolution-in-real-time-sensing/?utm_source=rss&utm_medium=rss&utm_campaign=ai-driven-ultrafast-spectrometer-on-a-chip-a-revolution-in-real-time-sensing",
+      "publishedAt": "2026-01-21T21:21:02.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Microchip Introduces 600V Gate Driver Family for High-Voltage Power Management Applications",
+      "summary": "Building on Microchip’s power management solutions, these high-voltage gate drivers are designed to facilitate the development of motor control and power conversion systems for industrial and consumer applications. The post Microchip Introduces 600V Gate Driver Family for High-Voltage Power Manageme",
+      "url": "https://www.semiconductor-digest.com/microchip-introduces-600v-gate-driver-family-for-high-voltage-power-management-applications/?utm_source=rss&utm_medium=rss&utm_campaign=microchip-introduces-600v-gate-driver-family-for-high-voltage-power-management-applications",
+      "publishedAt": "2026-01-21T21:05:51.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Light Switches Made of Ultra-Thin Semiconductor Layers",
+      "summary": "Physics team from Germany demonstrates ultrafast switching process that could be used in optical components. The post Light Switches Made of Ultra-Thin Semiconductor Layers appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/light-switches-made-of-ultra-thin-semiconductor-layers/?utm_source=rss&utm_medium=rss&utm_campaign=light-switches-made-of-ultra-thin-semiconductor-layers",
+      "publishedAt": "2026-01-21T19:02:01.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Polar Light Technologies Achieves Nano-Scale LED; Paves Way to Next-Generation MicroLED",
+      "summary": "This achievement illustrates the extraordinary flexibility of the company's patented pyramidal architecture, developed without requiring the traditional etching process. The post Polar Light Technologies Achieves Nano-Scale LED; Paves Way to Next-Generation MicroLED appeared first on Semiconductor D",
+      "url": "https://www.semiconductor-digest.com/polar-light-technologies-achieves-nano-scale-led-paves-way-to-next-generation-microled/?utm_source=rss&utm_medium=rss&utm_campaign=polar-light-technologies-achieves-nano-scale-led-paves-way-to-next-generation-microled",
+      "publishedAt": "2026-01-21T17:50:10.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Jabil Invests in EHT Semi",
+      "summary": "Jabil Inc. announced today a strategic minority investment and manufacturing collaboration with Eagle Harbor Technologies, Inc. (dba, EHT Semi), a pioneer in RF and pulsed-power systems. The post Jabil Invests in EHT Semi appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/jabil-invests-in-eht-semi/?utm_source=rss&utm_medium=rss&utm_campaign=jabil-invests-in-eht-semi",
+      "publishedAt": "2026-01-21T17:03:26.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "IEEE Study Proposes a Novel High-Efficiency Silicon Single-Photon Detector",
+      "summary": "Silicon single-photon detectors (Si SPDs) play a central role in quantum photonics and single-photon imaging for detecting single photons in the visible spectrum. The post IEEE Study Proposes a Novel High-Efficiency Silicon Single-Photon Detector appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/ieee-study-proposes-a-novel-high-efficiency-silicon-single-photon-detector/?utm_source=rss&utm_medium=rss&utm_campaign=ieee-study-proposes-a-novel-high-efficiency-silicon-single-photon-detector",
+      "publishedAt": "2026-01-20T22:37:03.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Entegris Announces CFO Transition",
+      "summary": "Entegris, Inc. today announced that Linda LaGorga will step down as Chief Financial Officer, by mutual agreement, effective February 28, 2026. The post Entegris Announces CFO Transition appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/entegris-announces-cfo-transition/?utm_source=rss&utm_medium=rss&utm_campaign=entegris-announces-cfo-transition",
+      "publishedAt": "2026-01-20T22:23:44.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "CEA-Leti Advances Silicon-Integrated Quantum Cascade Lasers for Mid-Infrared Photonics",
+      "summary": "CEA-Leti today presented new research at SPIE Photonics West highlighting major progress in the integration of quantum cascade lasers (QCLs) with silicon photonic platforms for mid-infrared (MIR) applications. The post CEA-Leti Advances Silicon-Integrated Quantum Cascade Lasers for Mid-Infrared Phot",
+      "url": "https://www.semiconductor-digest.com/cea-leti-advances-silicon-integrated-quantum-cascade-lasers-for-mid-infrared-photonics/?utm_source=rss&utm_medium=rss&utm_campaign=cea-leti-advances-silicon-integrated-quantum-cascade-lasers-for-mid-infrared-photonics",
+      "publishedAt": "2026-01-20T22:19:07.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "SEMI Foundation Approved by the U.S. Department of Labor as a National Apprenticeship Sponsor to Expand Semiconductor Workforce Pathways",
+      "summary": "The SEMI Foundation today announced it has been officially approved by the U.S. Department of Labor (USDOL) as a National Apprenticeship Sponsor, a major milestone that strengthens industry-led workforce development and expands access to high-quality, earn-and-learn pathways across the U.S. semicond",
+      "url": "https://www.semiconductor-digest.com/semi-foundation-approved-by-the-u-s-department-of-labor-as-a-national-apprenticeship-sponsor-to-expand-semiconductor-workforce-pathways/?utm_source=rss&utm_medium=rss&utm_campaign=semi-foundation-approved-by-the-u-s-department-of-labor-as-a-national-apprenticeship-sponsor-to-expand-semiconductor-workforce-pathways",
+      "publishedAt": "2026-01-20T22:11:06.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Thermonat Makes Nanoscale Thermal Prediction Practical for Real-World Chip Design",
+      "summary": "Rapid-start research moves from exploration to commercialization. The post Thermonat Makes Nanoscale Thermal Prediction Practical for Real-World Chip Design appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/thermonat-makes-nanoscale-thermal-prediction-practical-for-real-world-chip-design/?utm_source=rss&utm_medium=rss&utm_campaign=thermonat-makes-nanoscale-thermal-prediction-practical-for-real-world-chip-design",
+      "publishedAt": "2026-01-20T21:58:53.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "CEA-Leti Demonstrates Combined MicroLED and Organic Photodetector Architecture For Display-Integrated Optical Sensing",
+      "summary": "CEA-Leti today demonstrated a co-packaged microLED and organic photodetector (OPD) architecture that enables optical sensing functions. The post CEA-Leti Demonstrates Combined MicroLED and Organic Photodetector Architecture For Display-Integrated Optical Sensing appeared first on Semiconductor Diges",
+      "url": "https://www.semiconductor-digest.com/cea-leti-demonstrates-combined-microled-and-organic-photodetector-architecture-for-display-integrated-optical-sensing/?utm_source=rss&utm_medium=rss&utm_campaign=cea-leti-demonstrates-combined-microled-and-organic-photodetector-architecture-for-display-integrated-optical-sensing",
+      "publishedAt": "2026-01-20T21:53:30.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Industrial Display Revenues Grow 24% YoY in 2025, Led by AUO Display Plus",
+      "summary": "Global industrial display panel makers achieved revenues reaching $3.4 billion in 2025, representing a 24% year-on-year (YoY) increase, according to Omdia's Industrial and Public Display & OEM Intelligence Service. The post Industrial Display Revenues Grow 24% YoY in 2025, Led by AUO Display Plus ap",
+      "url": "https://www.semiconductor-digest.com/industrial-display-revenues-grow-24-yoy-in-2025-led-by-auo-display-plus/?utm_source=rss&utm_medium=rss&utm_campaign=industrial-display-revenues-grow-24-yoy-in-2025-led-by-auo-display-plus",
+      "publishedAt": "2026-01-19T19:07:04.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Semiconductor Materials Markets Enter 2026 with a Promising Momentum",
+      "summary": "Growth is increasingly supported by process complexity rather than wafer volumes alone, while geopolitical dynamics and uneven supply-chain localization continue to influence pricing, sourcing, and investment decisions as the industry enters 2026. The post Semiconductor Materials Markets Enter 2026 ",
+      "url": "https://www.semiconductor-digest.com/semiconductor-materials-markets-enter-2026-with-a-promising-momentum/?utm_source=rss&utm_medium=rss&utm_campaign=semiconductor-materials-markets-enter-2026-with-a-promising-momentum",
+      "publishedAt": "2026-01-19T19:02:57.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Department of Commerce and NIST Announce CHIPS Research and Development Letter of Intent with xLight",
+      "summary": "This would be the first award NIST will make after assuming leadership of the National Semiconductor Technology Center in the Trump administration. The post Department of Commerce and NIST Announce CHIPS Research and Development Letter of Intent with xLight appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/department-of-commerce-and-nist-announce-chips-research-and-development-letter-of-intent-with-xlight/?utm_source=rss&utm_medium=rss&utm_campaign=department-of-commerce-and-nist-announce-chips-research-and-development-letter-of-intent-with-xlight",
+      "publishedAt": "2026-01-19T18:57:21.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Former Altera CEO Sandra Rivera Assumes Role as VSORA’s Chair of the Board",
+      "summary": "Sandra Rivera, former CEO of Altera, an Intel FPGA spinout, today assumed the role of Chair of the Board of Directors of VSORA, a French technology leader redefining AI inference for next-generation data centers, cloud infrastructure and edge. The post Former Altera CEO Sandra Rivera Assumes Role as",
+      "url": "https://www.semiconductor-digest.com/former-altera-ceo-sandra-rivera-assumes-role-as-vsoras-chair-of-the-board/?utm_source=rss&utm_medium=rss&utm_campaign=former-altera-ceo-sandra-rivera-assumes-role-as-vsoras-chair-of-the-board",
+      "publishedAt": "2026-01-19T18:48:58.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "SINGULUS TECHNOLOGIES Receives New Order for MicroLED Deposition System",
+      "summary": "SINGULUS TECHNOLOGIES has received a follow-up order for a TIMARIS deposition system for the production of MicroLEDs. The post SINGULUS TECHNOLOGIES Receives New Order for MicroLED Deposition System appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/singulus-technologies-receives-new-order-for-microled-deposition-system/?utm_source=rss&utm_medium=rss&utm_campaign=singulus-technologies-receives-new-order-for-microled-deposition-system",
+      "publishedAt": "2026-01-19T18:44:40.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Northrop Grumman Accelerates Microelectronics Testing Under DARPA Program",
+      "summary": "Advanced technology enhances testing speed ten-fold for microelectronics used in space and nuclear facilities. The post Northrop Grumman Accelerates Microelectronics Testing Under DARPA Program appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/northrop-grumman-accelerates-microelectronics-testing-under-darpa-program/?utm_source=rss&utm_medium=rss&utm_campaign=northrop-grumman-accelerates-microelectronics-testing-under-darpa-program",
+      "publishedAt": "2026-01-16T22:03:37.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Greene Tweed Welcomes Thomas J. Castle as New Chief Operating  Officer",
+      "summary": "Greene Tweed has appointed Thomas (T.J.) Castle as its new Chief Operating Officer (COO). The post Greene Tweed Welcomes Thomas J. Castle as New Chief Operating Officer appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/greene-tweed-welcomes-thomas-j-castle-as-new-chief-operating-officer/?utm_source=rss&utm_medium=rss&utm_campaign=greene-tweed-welcomes-thomas-j-castle-as-new-chief-operating-officer",
+      "publishedAt": "2026-01-16T21:57:12.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "AI’s Water Demand to Surge Nearly 130% by 2050 ",
+      "summary": "Analysis finds AI could add 30 trillion liters of annual water demand, but targeted reuse and digital infrastructure investments can substantially offset demand and protect communities. The post AI’s Water Demand to Surge Nearly 130% by 2050 appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/ais-water-demand-to-surge-nearly-130-by-2050/?utm_source=rss&utm_medium=rss&utm_campaign=ais-water-demand-to-surge-nearly-130-by-2050",
+      "publishedAt": "2026-01-16T21:53:06.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "SONOTEC’s 2026 Outlook",
+      "summary": "Sonotec will invest heavily in its SEMIFLOW product series in response to rapidly changing market requirements. The post SONOTEC’s 2026 Outlook appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/sonotecs-2026-outlook/?utm_source=rss&utm_medium=rss&utm_campaign=sonotecs-2026-outlook",
+      "publishedAt": "2026-01-16T15:06:25.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "The Entirely Curvilinear Photomask Era Has Arrived",
+      "summary": "Semiconductor manufacturing has reached a curve in the road – one driven by the convergence of GPU acceleration, pixel-based computing, eBeam multi-beam mask writers, and entirely curvilinear inverse lithography technology (ILT). The post The Entirely Curvilinear Photomask Era Has Arrived appeared f",
+      "url": "https://www.semiconductor-digest.com/the-entirely-curvilinear-photomask-era-has-arrived/?utm_source=rss&utm_medium=rss&utm_campaign=the-entirely-curvilinear-photomask-era-has-arrived",
+      "publishedAt": "2026-01-16T14:31:52.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "AI",
+        "EUV"
+      ]
+    },
+    {
+      "title": "From Roadmaps to Reality: Unlocking Scalable Photonic IC Manufacturing",
+      "summary": "Over the past decade, Photonic Integrated Circuits (PICs), have evolved from specialized telecom components into enabling technologies for applications that need to move data fast and with low power. The post From Roadmaps to Reality: Unlocking Scalable Photonic IC Manufacturing appeared first on Se",
+      "url": "https://www.semiconductor-digest.com/from-roadmaps-to-reality-unlocking-scalable-photonic-ic-manufacturing/?utm_source=rss&utm_medium=rss&utm_campaign=from-roadmaps-to-reality-unlocking-scalable-photonic-ic-manufacturing",
+      "publishedAt": "2026-01-16T13:50:24.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Applied Brain Research Closes Seed Funding Round to Accelerate Edge AI Voice Processing",
+      "summary": "Applied Brain Research announced today the successful closure of its oversubscribed seed funding round. The post Applied Brain Research Closes Seed Funding Round to Accelerate Edge AI Voice Processing appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/applied-brain-research-closes-seed-funding-round-to-accelerate-edge-ai-voice-processing/?utm_source=rss&utm_medium=rss&utm_campaign=applied-brain-research-closes-seed-funding-round-to-accelerate-edge-ai-voice-processing",
+      "publishedAt": "2026-01-14T23:02:37.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Omdia: Large-Area Display Shipments Grew 2.9% Year Over Year in 2025",
+      "summary": "Despite ongoing global economic uncertainty and the introduction of new US tariff policies, large-area display shipments grew 2.9% year-over-year (YoY) in 2025 based on Omdia’s latest forecast. The post Omdia: Large-Area Display Shipments Grew 2.9% Year Over Year in 2025 appeared first on Semiconduc",
+      "url": "https://www.semiconductor-digest.com/omdia-large-area-display-shipments-grew-2-9-year-over-year-in-2025/?utm_source=rss&utm_medium=rss&utm_campaign=omdia-large-area-display-shipments-grew-2-9-year-over-year-in-2025",
+      "publishedAt": "2026-01-14T22:46:30.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Policy"
+      ]
+    },
+    {
+      "title": "Seoul National University-Drexel University Team Achieve World’s Highest Efficiency Fully Stretchable OLEDs with 17% External Quantum Efficiency",
+      "summary": "Overcoming the limitations of fully stretchable OLEDs through an exciplex-assisted phosphorescent layer and MXene-contact stretchable electrodes. The post Seoul National University-Drexel University Team Achieve World’s Highest Efficiency Fully Stretchable OLEDs with 17% External Quantum Efficiency ",
+      "url": "https://www.semiconductor-digest.com/seoul-national-university-drexel-university-team-achieve-worlds-highest-efficiency-fully-stretchable-oleds-with-17-external-quantum-efficiency/?utm_source=rss&utm_medium=rss&utm_campaign=seoul-national-university-drexel-university-team-achieve-worlds-highest-efficiency-fully-stretchable-oleds-with-17-external-quantum-efficiency",
+      "publishedAt": "2026-01-14T22:02:01.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Startup Island TAIWAN Silicon Valley Hub Marks First Anniversary",
+      "summary": "Startup Island TAIWAN Silicon Valley Hub celebrated its first anniversary on January 12 (U.S. Pacific Time) in Palo Alto. The post Startup Island TAIWAN Silicon Valley Hub Marks First Anniversary appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/startup-island-taiwan-silicon-valley-hub-marks-first-anniversary/?utm_source=rss&utm_medium=rss&utm_campaign=startup-island-taiwan-silicon-valley-hub-marks-first-anniversary",
+      "publishedAt": "2026-01-14T21:51:53.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Synopsys Enters Definitive Agreement with GlobalFoundries For Sale of Processor IP Solutions Business",
+      "summary": "Synopsys, Inc. today announced it has entered into a definitive agreement for the sale of its Processor IP Solutions business to GlobalFoundries. The post Synopsys Enters Definitive Agreement with GlobalFoundries For Sale of Processor IP Solutions Business appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/synopsys-enters-definitive-agreement-with-globalfoundries-for-sale-of-processor-ip-solutions-business/?utm_source=rss&utm_medium=rss&utm_campaign=synopsys-enters-definitive-agreement-with-globalfoundries-for-sale-of-processor-ip-solutions-business",
+      "publishedAt": "2026-01-14T21:48:29.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Siemens Acquires ASTER Technologies",
+      "summary": "Siemens today announced it has acquired ASTER Technologies, a privately held market leader in printed circuit board assembly (PCBA) test verification and engineering software. The post Siemens Acquires ASTER Technologies appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/siemens-acquires-aster-technologies/?utm_source=rss&utm_medium=rss&utm_campaign=siemens-acquires-aster-technologies",
+      "publishedAt": "2026-01-14T17:54:55.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Mitsubishi Electric to Ship Samples of Four New Trench SiC-MOSFET Bare Dies for Power Semiconductors",
+      "summary": "Advanced bare dies for diverse embedding needs, enabling lower power consumption in power electronics equipment. The post Mitsubishi Electric to Ship Samples of Four New Trench SiC-MOSFET Bare Dies for Power Semiconductors appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/mitsubishi-electric-to-ship-samples-of-four-new-trench-sic-mosfet-bare-dies-for-power-semiconductors/?utm_source=rss&utm_medium=rss&utm_campaign=mitsubishi-electric-to-ship-samples-of-four-new-trench-sic-mosfet-bare-dies-for-power-semiconductors",
+      "publishedAt": "2026-01-14T17:51:55.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Magnachip Announces the Retirement of Director Ilbok Lee",
+      "summary": "Magnachip Semiconductor Corporation today announced that Ilbok Lee has notified the Company of his intention to retire from the Company’s Board of Directors, to be effective at the Company’s next scheduled Board meeting to be held on January 14, 2026. The post Magnachip Announces the Retirement of D",
+      "url": "https://www.semiconductor-digest.com/magnachip-announces-the-retirement-of-director-ilbok-lee/?utm_source=rss&utm_medium=rss&utm_campaign=magnachip-announces-the-retirement-of-director-ilbok-lee",
+      "publishedAt": "2026-01-14T17:42:20.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "KAIST Develops OLED Technology with Double the Screen Brightness​",
+      "summary": "Organic light-emitting diodes (OLEDs) are widely used in smartphones and TVs thanks to their excellent color reproduction and thin, flexible planar structure. The post KAIST Develops OLED Technology with Double the Screen Brightness​ appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/kaist-develops-oled-technology-with-double-the-screen-brightness/?utm_source=rss&utm_medium=rss&utm_campaign=kaist-develops-oled-technology-with-double-the-screen-brightness",
+      "publishedAt": "2026-01-13T00:46:06.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "L&T Semiconductor Technologies Launches India’s Cellular IoT Module Business",
+      "summary": "L&T Semiconductor Technologies Limited announced its entry into the Cellular IoT Module business during CES 2026 — marking a significant expansion of its semiconductor portfolio. The post L&T Semiconductor Technologies Launches India’s Cellular IoT Module Business appeared first on Semiconductor Dig",
+      "url": "https://www.semiconductor-digest.com/lt-semiconductor-technologies-launches-indias-cellular-iot-module-business/?utm_source=rss&utm_medium=rss&utm_campaign=lt-semiconductor-technologies-launches-indias-cellular-iot-module-business",
+      "publishedAt": "2026-01-13T00:33:47.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "ESD Alliance Reports Electronic System Design Industry Posts $5.6 Billion in Revenue in Q3 2025",
+      "summary": "Electronic System Design (ESD) industry revenue increased 8.8% to $5,566.4 million in the third quarter of 2025 from the $5,114.5 million registered in the third quarter of 2024, the ESD Alliance announced today. The post ESD Alliance Reports Electronic System Design Industry Posts $5.6 Billion in R",
+      "url": "https://www.semiconductor-digest.com/esd-alliance-reports-electronic-system-design-industry-posts-5-6-billion-in-revenue-in-q3-2025/?utm_source=rss&utm_medium=rss&utm_campaign=esd-alliance-reports-electronic-system-design-industry-posts-5-6-billion-in-revenue-in-q3-2025",
+      "publishedAt": "2026-01-13T00:26:36.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Nordic Semiconductor Simplifies Edge AI for Billions of IoT Devices",
+      "summary": "Nordic Semiconductor is bringing AI intelligence and functionality to the smallest battery-powered IoT devices. The post Nordic Semiconductor Simplifies Edge AI for Billions of IoT Devices appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/nordic-semiconductor-simplifies-edge-ai-for-billions-of-iot-devices/?utm_source=rss&utm_medium=rss&utm_campaign=nordic-semiconductor-simplifies-edge-ai-for-billions-of-iot-devices",
+      "publishedAt": "2026-01-12T01:37:54.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Global Semiconductor Sales Increase 29.8% Year-to-Year in November",
+      "summary": "November’s sales mark the global industry’s highest-ever monthly total; worldwide chip sales increase 3.5% month-to-month. The post Global Semiconductor Sales Increase 29.8% Year-to-Year in November appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/global-semiconductor-sales-increase-29-8-year-to-year-in-november/?utm_source=rss&utm_medium=rss&utm_campaign=global-semiconductor-sales-increase-29-8-year-to-year-in-november",
+      "publishedAt": "2026-01-12T01:32:22.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Gleason Chosen for Tennessee’s AI Advisory Council",
+      "summary": "Shaun Gleason, director of the Partnerships Office at the Department of Energy’s Oak Ridge National Laboratory, has been appointed to Tennessee’s Artificial Intelligence Advisory Council. The post Gleason Chosen for Tennessee’s AI Advisory Council appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/gleason-chosen-for-tennessees-ai-advisory-council/?utm_source=rss&utm_medium=rss&utm_campaign=gleason-chosen-for-tennessees-ai-advisory-council",
+      "publishedAt": "2026-01-12T01:28:06.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Using the Physics of Radio Waves to Empower Smarter Edge Devices",
+      "summary": "Duke engineers publish new method to use analog radio waves to boost energy-efficient edge AI. The post Using the Physics of Radio Waves to Empower Smarter Edge Devices appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/using-the-physics-of-radio-waves-to-empower-smarter-edge-devices/?utm_source=rss&utm_medium=rss&utm_campaign=using-the-physics-of-radio-waves-to-empower-smarter-edge-devices",
+      "publishedAt": "2026-01-12T01:24:47.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Illinois Tech Researcher Finds Where Lithium Ions Reside in New Solid-State Electrolyte That Could Lead to Improved Batteries",
+      "summary": "Research Professor of Chemistry James Kaduk co-authored a paper in Science that details a material with high ionic conductivity—even at low temperatures—which could prove crucial in developing next generation of lithium batteries. The post Illinois Tech Researcher Finds Where Lithium Ions Reside in ",
+      "url": "https://www.semiconductor-digest.com/illinois-tech-researcher-finds-where-lithium-ions-reside-in-new-solid-state-electrolyte-that-could-lead-to-improved-batteries/?utm_source=rss&utm_medium=rss&utm_campaign=illinois-tech-researcher-finds-where-lithium-ions-reside-in-new-solid-state-electrolyte-that-could-lead-to-improved-batteries",
+      "publishedAt": "2026-01-09T23:33:27.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Soitec Appoints Laurent Remont CEO, Effective April 2026",
+      "summary": "Soitec announces that its Board of Directors has appointed Laurent Rémont as Chief Executive Officer, effective April 1, 2026. The post Soitec Appoints Laurent Remont CEO, Effective April 2026 appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/soitec-appoints-laurent-remont-ceo-effective-april-2026/?utm_source=rss&utm_medium=rss&utm_campaign=soitec-appoints-laurent-remont-ceo-effective-april-2026",
+      "publishedAt": "2026-01-09T23:27:17.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Si2’s OpenAccess Coalition Announces 2026 Board of Directors",
+      "summary": "The OpenAccess Coalition is pleased to announce its 2026 Board of Directors, now representing 16 member companies. The post Si2’s OpenAccess Coalition Announces 2026 Board of Directors appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/si2s-openaccess-coalition-announces-2026-board-of-directors/?utm_source=rss&utm_medium=rss&utm_campaign=si2s-openaccess-coalition-announces-2026-board-of-directors",
+      "publishedAt": "2026-01-09T23:20:20.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "2026 Outlook: Executive Viewpoints",
+      "summary": "Each year, Semiconductor Digest turns to industry leaders and analysts to get their viewpoints on what they expect to see in the coming year in terms of critical tech and business trends. Hot topics continue to be artificial intelligence, cloud computing, energy efficiency, the supply chain, increas",
+      "url": "https://www.semiconductor-digest.com/2026-outlook-executive-viewpoints/?utm_source=rss&utm_medium=rss&utm_campaign=2026-outlook-executive-viewpoints",
+      "publishedAt": "2026-01-09T15:53:57.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "AI",
+        "Packaging"
+      ]
+    },
+    {
+      "title": "Micron Announces Groundbreaking for Historic New York Megafab",
+      "summary": "Marking the start of construction on the largest semiconductor manufacturing facility in U.S. history, Micron executives to join federal, state and local leaders to celebrate the $100 billion project in Central New York. The post Micron Announces Groundbreaking for Historic New York Megafab appeared",
+      "url": "https://www.semiconductor-digest.com/micron-announces-groundbreaking-for-historic-new-york-megafab/?utm_source=rss&utm_medium=rss&utm_campaign=micron-announces-groundbreaking-for-historic-new-york-megafab",
+      "publishedAt": "2026-01-08T22:26:32.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Foundry",
+        "Memory"
+      ]
+    },
+    {
+      "title": "SEEQC Establishes US-Taiwan Quantum Technology Ecosystem Through Strategic Partnerships in Advanced Electronics and Semiconductor Manufacturing  Share",
+      "summary": "SEEQC today announced a new US-Taiwan quantum technology ecosystem that brings together leading semiconductor, electronics, and academic partners to accelerate the commercialization of its Single Flux Quantum (SFQ)-based quantum computing platform. The post SEEQC Establishes US-Taiwan Quantum Techno",
+      "url": "https://www.semiconductor-digest.com/seeqc-establishes-us-taiwan-quantum-technology-ecosystem-through-strategic-partnerships-in-advanced-electronics-and-semiconductor-manufacturing-share/?utm_source=rss&utm_medium=rss&utm_campaign=seeqc-establishes-us-taiwan-quantum-technology-ecosystem-through-strategic-partnerships-in-advanced-electronics-and-semiconductor-manufacturing-share",
+      "publishedAt": "2026-01-08T22:04:37.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Greene Tweed Highlights Dedicated PFAS-Free Product Portfolio for the Evolving Fluoropolymers Landscape",
+      "summary": "This expanding portfolio reinforces Greene Tweed’s commitment to its role as a material innovator and trusted partner in helping customers navigate the use of PFAS-free products. The post Greene Tweed Highlights Dedicated PFAS-Free Product Portfolio for the Evolving Fluoropolymers Landscape appeared",
+      "url": "https://www.semiconductor-digest.com/greene-tweed-highlights-dedicated-pfas-free-product-portfolio-for-the-evolving-fluoropolymers-landscape/?utm_source=rss&utm_medium=rss&utm_campaign=greene-tweed-highlights-dedicated-pfas-free-product-portfolio-for-the-evolving-fluoropolymers-landscape",
+      "publishedAt": "2026-01-08T21:17:36.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Optics Research Uses Dim Light to Produce Bright LEDs",
+      "summary": "Researchers at Princeton and North Carolina State University have developed a technique that substantially improves the ability to convert low-energy light into a high-energy version. The post Optics Research Uses Dim Light to Produce Bright LEDs appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/optics-research-uses-dim-light-to-produce-bright-leds/?utm_source=rss&utm_medium=rss&utm_campaign=optics-research-uses-dim-light-to-produce-bright-leds",
+      "publishedAt": "2026-01-07T22:58:41.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "GSME Secures $35M Series B Funding",
+      "summary": "GS Microelectronics U.S., Inc. (GSME) today announced a $35 million Series B round led by Maverick Silicon to expand its semiconductor services platform across advanced packaging, design enablement, and supply chain visibility. The post GSME Secures $35M Series B Funding appeared first on Semiconduc",
+      "url": "https://www.semiconductor-digest.com/gsme-secures-35m-series-b-funding/?utm_source=rss&utm_medium=rss&utm_campaign=gsme-secures-35m-series-b-funding",
+      "publishedAt": "2026-01-07T22:53:45.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Packaging"
+      ]
+    },
+    {
+      "title": "AECO Corp. Announces Promotion of Maryann Remner to President",
+      "summary": "AECO Corp. announced the promotion of Maryann Remner to President, effective immediately. The post AECO Corp. Announces Promotion of Maryann Remner to President appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/aeco-corp-announces-promotion-of-maryann-remner-to-president/?utm_source=rss&utm_medium=rss&utm_campaign=aeco-corp-announces-promotion-of-maryann-remner-to-president",
+      "publishedAt": "2026-01-07T22:25:58.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "SEMI Industry Strategy Symposium 2026 Gathers Executives to Analyze Semiconductor Industry Challenges and Opportunities",
+      "summary": "SEMI, the industry association serving the global semiconductor and electronics design and manufacturing supply chain, will hold its annual Industry Strategy Symposium (ISS) on Sunday, January 11 through Wednesday, January 14 at the Ritz-Carlton Hotel in Half Moon Bay, Calif. The post SEMI Industry ",
+      "url": "https://www.semiconductor-digest.com/semi-industry-strategy-symposium-2026-gathers-executives-to-analyze-semiconductor-industry-challenges-and-opportunities/?utm_source=rss&utm_medium=rss&utm_campaign=semi-industry-strategy-symposium-2026-gathers-executives-to-analyze-semiconductor-industry-challenges-and-opportunities",
+      "publishedAt": "2026-01-07T22:17:13.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": []
+    },
+    {
+      "title": "Cadence Launches Partner Ecosystem to Accelerate Chiplet Time to Market",
+      "summary": "Strategic collaborations with Samsung Foundry, Arm and others enable Cadence to deliver pre-validated chiplet solutions based on the Cadence Physical AI chiplet platform. The post Cadence Launches Partner Ecosystem to Accelerate Chiplet Time to Market appeared first on Semiconductor Digest.",
+      "url": "https://www.semiconductor-digest.com/cadence-launches-partner-ecosystem-to-accelerate-chiplet-time-to-market/?utm_source=rss&utm_medium=rss&utm_campaign=cadence-launches-partner-ecosystem-to-accelerate-chiplet-time-to-market",
+      "publishedAt": "2026-01-06T22:17:25.000Z",
+      "source": "Semiconductor Digest",
+      "sourceDomain": "semiconductor-digest.com",
+      "category": "Industry",
+      "tags": [
+        "Foundry",
+        "AI",
+        "Packaging"
+      ]
+    }
+  ]
+}
