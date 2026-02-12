@@ -30,7 +30,7 @@ jobs:
       - name: Fetch feeds
         run: node scripts/fetchFeeds.js
 
-      - name: Deploy to Firebase
+      - name: Deploy to Firebase 
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
