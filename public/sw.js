@@ -168,10 +168,3 @@ self.addEventListener('notificationclick', (event) => {
 
 console.log('[SW] Service worker loaded successfully');
 ```
-
-저장 후 CMD에서:
-```
-cd "C:\semicon pulse"
-```
-```
-firebase deploy
