@@ -20,8 +20,6 @@ const RSS_FEEDS = [
   { url: 'https://techcrunch.com/feed/', source: 'TechCrunch', category: 'Technology' },
   { url: 'https://www.extremetech.com/feed', source: 'ExtremeTech', category: 'Technology' },
   { url: 'https://www.digitimes.com/rss/daily.xml', source: 'Digitimes', category: 'Industry' },
-  { url: 'https://www.kedglobal.com/rss/rssFile.xml', source: 'Korea Economic Daily', category: 'Industry' },
-  { url: 'https://businesskorea.co.kr/rss/allArticle.xml', source: 'Business Korea', category: 'Industry' },
   { url: 'https://www.trendforce.com/rss/news.xml', source: 'TrendForce', category: 'Industry' }
 ];
 
