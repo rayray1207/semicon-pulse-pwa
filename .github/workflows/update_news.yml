@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: semicon-news-update
+  cancel-in-progress: true
+
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
@@ -26,20 +30,34 @@ jobs:
       - name: Install deps
         run: npm install
 
+      - name: Sync with remote main (before changes)
+        run: |
+          git fetch origin main
+          git checkout main
+          git rebase origin/main
+
       - name: Fetch feeds
         run: node scripts/fetchFeeds.js
 
-      - name: Pull latest main
-        run: git pull origin main --rebase
-
-      - name: Commit changes
+      - name: Commit & Push changes (with rebase+retry)
         run: |
           if ! git diff --quiet public/news.json; then
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
             git config --local user.name "github-actions[bot]"
             git add public/news.json
             git commit -m "chore: update news feed"
-            git push origin HEAD:main
+
+            for i in 1 2 3; do
+              echo "Push attempt $i..."
+              git fetch origin main
+              git rebase origin/main || true
+              if git push origin HEAD:main; then
+                echo "Push succeeded."
+                break
+              fi
+              echo "Push rejected, retrying in 5s..."
+              sleep 5
+            done
           else
             echo "No changes"
           fi

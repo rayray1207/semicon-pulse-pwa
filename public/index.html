@@ -517,13 +517,13 @@
 <body>
   <!-- Header -->
   <header class="header">
-    <a href="/" class="logo">Semicon Pulse</a>
+   <a href="/index.html" class="logo">Semicon Pulse</a>
     
     <div class="search-box">
       <input 
         type="search" 
         class="search-input" 
-        placeholder="검색: HBM, TSMC, AI..." 
+        placeholder="Search: HBM, TSMC, AI..." 
         id="searchInput"
         autocomplete="off"
       >
@@ -542,13 +542,13 @@
   <!-- Tabs -->
   <nav class="tabs" id="tabs">
     <button class="tab active" data-tab="top">Top</button>
-    <button class="tab" data-tab="latest">최신</button>
+    <button class="tab" data-tab="latest">Latest</button>
     <button class="tab" data-tab="HBM">HBM</button>
     <button class="tab" data-tab="Foundry">Foundry</button>
     <button class="tab" data-tab="AI">AI</button>
     <button class="tab" data-tab="Equipment">Equipment</button>
     <button class="tab" data-tab="Memory">Memory</button>
-    <button class="tab" data-tab="favorites">즐겨찾기</button>
+    <button class="tab" data-tab="favorites">Favorites</button>
   </nav>
   
   <!-- Main Content -->
@@ -676,7 +676,7 @@
       
       // 렌더링
       if (articles.length === 0) {
-        showEmptyState(searchQuery ? '검색 결과가 없습니다' : '뉴스가 없습니다');
+        showEmptyState(searchQuery ? 'No matching results' : 'No articles available');
         return;
       }
       
@@ -714,24 +714,31 @@
     }
     
     // ==================== Time Ago Formatter ====================
-    function getTimeAgo(dateString) {
-      const now = Date.now();
-      const past = new Date(dateString).getTime();
-      const diffMs = now - past;
-      
-      const diffMins = Math.floor(diffMs / 60000);
-      const diffHours = Math.floor(diffMs / 3600000);
-      const diffDays = Math.floor(diffMs / 86400000);
-      
-      if (diffMins < 60) return `${diffMins}분 전`;
-      if (diffHours < 24) return `${diffHours}시간 전`;
-      if (diffDays < 7) return `${diffDays}일 전`;
-      
-      return new Date(dateString).toLocaleDateString('ko-KR', {
-        month: 'short',
-        day: 'numeric'
-      });
-    }
+function getTimeAgo(dateString) {
+  const now = Date.now();
+  const past = new Date(dateString).getTime();
+  const diffMs = now - past;
+
+  const diffMins = Math.floor(diffMs / 60000);
+  const diffHours = Math.floor(diffMs / 3600000);
+  const diffDays = Math.floor(diffMs / 86400000);
+
+  if (diffMins < 1) return 'just now';
+
+  if (diffMins < 60) {
+    return diffMins === 1 ? '1 minute ago' : `${diffMins} minutes ago`;
+  }
+
+  if (diffHours < 24) {
+    return diffHours === 1 ? '1 hour ago' : `${diffHours} hours ago`;
+  }
+
+  if (diffDays < 7) {
+    return diffDays === 1 ? '1 day ago' : `${diffDays} days ago`;
+  }
+
+  return new Date(dateString).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
     
     // ==================== Escape HTML ====================
     function escapeHtml(text) {
@@ -816,3 +823,4 @@
   </script>
 </body>
 </html>
+

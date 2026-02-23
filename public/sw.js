@@ -3,8 +3,8 @@
  * 버전 관리를 통해 업데이트 시 자동으로 캐시 갱신
  */
 
-const CACHE_NAME = 'semicon-pulse-v1.0.0';
-const NEWS_CACHE = 'news-cache-v1';
+const CACHE_NAME = 'semicon-pulse-v' + new Date().getTime();
+const NEWS_CACHE = 'news-cache-v' + new Date().getTime();
 
 // 캐시할 정적 파일 목록
 const STATIC_ASSETS = [
@@ -18,21 +18,21 @@ const STATIC_ASSETS = [
 // 설치 이벤트: 정적 파일 캐싱
 self.addEventListener('install', (event) => {
   console.log('[SW] Installing service worker...');
-  
+
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => {
         console.log('[SW] Caching static assets');
         return cache.addAll(STATIC_ASSETS);
       })
-      .then(() => self.skipWaiting()) // 즉시 활성화
+      .then(() => self.skipWaiting())
   );
 });
 
 // 활성화 이벤트: 오래된 캐시 정리
 self.addEventListener('activate', (event) => {
   console.log('[SW] Activating service worker...');
-  
+
   event.waitUntil(
     caches.keys()
       .then((cacheNames) => {
@@ -45,7 +45,7 @@ self.addEventListener('activate', (event) => {
             })
         );
       })
-      .then(() => self.clients.claim()) // 즉시 제어권 가져오기
+      .then(() => self.clients.claim())
   );
 });
 
@@ -53,27 +53,34 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const { request } = event;
   const url = new URL(request.url);
-  
-  // news.json은 Network First 전략 (항상 최신 데이터 우선)
-  if (url.pathname === '/news.json') {
+
+  // index.html / 내비게이션은 Network First (항상 최신 화면 우선)
+  if (
+    url.origin === location.origin &&
+    (request.mode === 'navigate' || url.pathname === '/' || url.pathname === '/index.html')
+  ) {
     event.respondWith(
       fetch(request)
         .then((response) => {
-          // 성공 시 캐시 업데이트
           const clonedResponse = response.clone();
-          caches.open(NEWS_CACHE).then((cache) => {
+          caches.open(CACHE_NAME).then((cache) => {
             cache.put(request, clonedResponse);
           });
           return response;
         })
         .catch(() => {
-          // 네트워크 실패 시 캐시에서 반환 (오프라인 지원)
           return caches.match(request);
         })
     );
     return;
   }
-  
+
+  // news.json은 캐시 안 함 - 항상 최신 데이터 직접 가져오기
+  if (url.pathname === '/news.json') {
+    event.respondWith(fetch(request));
+    return;
+  }
+
   // 정적 파일은 Cache First 전략
   if (url.origin === location.origin) {
     event.respondWith(
@@ -82,30 +89,29 @@ self.addEventListener('fetch', (event) => {
           if (cachedResponse) {
             return cachedResponse;
           }
-          
-          // 캐시에 없으면 네트워크에서 가져와 캐싱
+
           return fetch(request).then((response) => {
             if (!response || response.status !== 200 || response.type === 'error') {
               return response;
             }
-            
+
             const responseToCache = response.clone();
             caches.open(CACHE_NAME).then((cache) => {
               cache.put(request, responseToCache);
             });
-            
+
             return response;
           });
         })
     );
     return;
   }
-  
+
   // 외부 리소스는 기본 fetch (캐싱 안 함)
   event.respondWith(fetch(request));
 });
 
-// 백그라운드 동기화 (선택 사항 - 향후 확장)
+// 백그라운드 동기화
 self.addEventListener('sync', (event) => {
   if (event.tag === 'sync-news') {
     console.log('[SW] Background sync: updating news...');
@@ -119,7 +125,7 @@ self.addEventListener('sync', (event) => {
   }
 });
 
-// 푸시 알림 (선택 사항 - 향후 확장)
+// 푸시 알림
 self.addEventListener('push', (event) => {
   const options = {
     body: event.data ? event.data.text() : 'New semiconductor news available!',
@@ -143,7 +149,7 @@ self.addEventListener('push', (event) => {
       }
     ]
   };
-  
+
   event.waitUntil(
     self.registration.showNotification('Semicon Pulse', options)
   );
@@ -152,7 +158,7 @@ self.addEventListener('push', (event) => {
 // 알림 클릭 이벤트
 self.addEventListener('notificationclick', (event) => {
   event.notification.close();
-  
+
   if (event.action === 'explore') {
     event.waitUntil(
       clients.openWindow('/')
@@ -161,3 +167,11 @@ self.addEventListener('notificationclick', (event) => {
 });
 
 console.log('[SW] Service worker loaded successfully');
+```
+
+저장 후 CMD에서:
+```
+cd "C:\semicon pulse"
+```
+```
+firebase deploy
