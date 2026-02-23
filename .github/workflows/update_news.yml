@@ -1,35 +1,30 @@
 name: Update News Feeds
-
 on:
   schedule:
     - cron: "0 0,6,12,18 * * *"
   workflow_dispatch:
-
 permissions:
   contents: read
-
 concurrency:
   group: semicon-news-update
   cancel-in-progress: true
-
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-
       - name: Install deps
         run: npm install
-
+      - name: Update SW cache version
+        run: |
+          sed -i "s/semicon-pulse-v[0-9]*/semicon-pulse-v$(date +%s)/g" public/sw.js
+          sed -i "s/news-cache-v[0-9]*/news-cache-v$(date +%s)/g" public/sw.js
       - name: Fetch feeds
         run: node scripts/fetchFeeds.js
-
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
